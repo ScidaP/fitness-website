@@ -5,7 +5,7 @@
 /* --- HEADER --- */
 
 header {
-    height: 35em;
+    height: 45em;
     background-image: url("../img/header.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -36,9 +36,35 @@ body {
 
 /* --- MAIN --- */
 
-main {
+.main {
     width: 80%;
     background-color: rgba(220, 220, 220, 1);
     height: 30em;
     margin: 0 auto;
+}
+
+.cita-inicio {
+    font-size: 1.2em !important;
+}
+
+.image-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.middle-left {
+    position: absolute;
+    top: 50%;
+    left: 8px;
+}
+
+blockquote p {
+    text-shadow: 2px 2px 2px black;
+    font-size: 2em;
+}
+
+.blockquote-footer {
+    font-size: 1.6em;
+    text-shadow: 3px 3px 2px black;
 }
