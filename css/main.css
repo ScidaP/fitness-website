@@ -4,7 +4,7 @@
 
 /* --- HEADER --- */
 
-header {
+.header {
     height: 45em;
     background-image: url("../img/header.jpg");
     background-position: center;
@@ -26,6 +26,10 @@ header {
 .logo-web {
     width: 90px;
     height: 30px;
+}
+
+.nav-inicio {
+    font-size: 1.4em;
 }
 
 /* --- BODY --- */
