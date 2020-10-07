@@ -1,0 +1,44 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* --- HEADER --- */
+
+header {
+    height: 35em;
+    background-image: url("../img/header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* --- NAV --- */
+
+.navbar {
+    background-color: black !important;
+    font-size: 0.94em;
+}
+
+.nav-item {
+    margin: 0 0.5em !important;
+}
+
+.logo-web {
+    width: 90px;
+    height: 30px;
+}
+
+/* --- BODY --- */
+
+body {
+    height: 100%;
+}
+
+/* --- MAIN --- */
+
+main {
+    width: 80%;
+    background-color: rgba(220, 220, 220, 1);
+    height: 30em;
+    margin: 0 auto;
+}
