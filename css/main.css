@@ -2,7 +2,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-/* --- HEADER --- */
+/* ------ HEADER ------ */
 
 .header {
     height: 45em;
@@ -12,7 +12,7 @@
     background-size: cover;
 }
 
-/* --- NAV --- */
+/* ------ NAV ------ */
 
 .navbar {
     background-color: black !important;
@@ -24,20 +24,23 @@
     height: 30px;
 }
 
-/* --- BODY --- */
+/* ------ BODY ------ */
 
 body {
     height: 100%;
 }
 
-/* --- MAIN --- */
+/* ------ MAIN ------ */
 
 .main {
     width: 80%;
-    background-color: rgba(220, 220, 220, 1);
-    height: 30em;
+    background-color: whitesmoke;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
+
+/* Main de INICIO */
 
 .cita-inicio {
     font-size: 1.2em !important;
@@ -63,4 +66,27 @@ blockquote p {
 .blockquote-footer {
     font-size: 1.6em;
     text-shadow: 3px 3px 2px black;
+}
+
+/* FIN Main de INICIO */
+
+/* Main de EJERCICIOS CON PESAS */
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card {
+    box-shadow: 0px 0px 20px black;
+}
+
+.col-md-4 {
+    display: flex;
+    height: 25em;
+}
+
+.vertical-medio {
+    margin: auto;
 }
