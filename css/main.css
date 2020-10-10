@@ -20,8 +20,8 @@
 }
 
 .logo-web {
-    width: 90px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
 }
 
 /* ------ BODY ------ */
@@ -79,7 +79,7 @@ blockquote p {
 }
 
 .card {
-    box-shadow: 0px 0px 20px black;
+    box-shadow: 0px 0px 10px black;
 }
 
 .col-md-4 {
@@ -89,4 +89,18 @@ blockquote p {
 
 .vertical-medio {
     margin: auto;
+}
+
+.card-gifs:hover {
+    cursor: pointer;
+    box-shadow: 0 0 20px gray;
+    transition-duration: 0.29s;
+}
+
+.titulo {
+    margin: 1em 0em;
+}
+
+.main-ejerconpesa {
+    background-image: url(../img/fondomain.png);
 }
