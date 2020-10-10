@@ -2,6 +2,16 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+/*.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+  display: block !important;
+}*/
+
 /* ------ HEADER ------ */
 
 .header {
@@ -68,6 +78,12 @@ blockquote p {
     text-shadow: 3px 3px 2px black;
 }
 
+.carousel-item {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 /* FIN Main de INICIO */
 
 /* Main de EJERCICIOS CON PESAS */
@@ -98,9 +114,43 @@ blockquote p {
 }
 
 .titulo {
-    margin: 1em 0em;
+    margin-bottom: 1em;
 }
 
 .main-ejerconpesa {
     background-image: url(../img/fondomain.png);
+    margin-top: -20%;
+}
+
+.titulo::before {
+    display: block;
+    content: " ";
+    height: 1em;
+    visibility: hidden;
+}
+
+/* Fin Main de EJERCICIOS CON PESAS */
+
+/* Aside de EJERCICIOS CON PESAS*/
+
+.container-aside {
+    margin-left: 1em;
+    position: sticky;
+    top: 30%;
+    margin-top: 3em;
+    left: 1em;
+    width: 8%;
+    border-radius: 6px;
+    background-color: whitesmoke;
+}
+
+.container-aside li a{
+    color: black;
+    transition-duration: 0.2s;
+    padding-left: 1em !important;
+}
+
+.container-aside li a:hover {
+    background-color: gray;
+    color: white;
 }
