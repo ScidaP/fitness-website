@@ -107,19 +107,13 @@ blockquote p {
     margin: auto;
 }
 
-.card-gifs:hover {
-    cursor: pointer;
-    box-shadow: 0 0 20px gray;
-    transition-duration: 0.29s;
-}
-
 .titulo {
     margin-bottom: 1em;
 }
 
 .main-ejerconpesa {
     background-image: url(../img/fondomain.png);
-    margin-top: -20%;
+    margin-top: -22%;
 }
 
 .titulo::before {
@@ -147,10 +141,12 @@ blockquote p {
 .container-aside li a{
     color: black;
     transition-duration: 0.2s;
-    padding-left: 1em !important;
+    padding-left: 0.5em !important;
 }
 
 .container-aside li a:hover {
     background-color: gray;
     color: white;
 }
+
+/* Fin de Aside de EJERCICIOS CON PESAS */
