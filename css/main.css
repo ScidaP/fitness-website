@@ -150,3 +150,18 @@ blockquote p {
 }
 
 /* Fin de Aside de EJERCICIOS CON PESAS */
+
+/* Main de EJERCICIOS SIN PESAS */
+
+/* FIN Main de EJERCICIOS SIN PESAS */
+
+/* Inicio de CONTACTANOS */
+
+textarea {
+    resize: none !important;
+}
+
+.text-success {
+    color:green;
+    font-size: 1.8em;
+}

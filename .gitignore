@@ -2,3 +2,6 @@
 PARAHACER.txt
 MODALFADE.txt
 media/
+node_modules/
+package-lock.json
+package.json
