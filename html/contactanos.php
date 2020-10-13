@@ -35,7 +35,9 @@ $result = "";
   
       $mail->isHTML(true);
       $mail->Subject = "Asunto: $subject";
-      $mail->Body = "<h2>Name: $name</h2> <br> <h2>From: $userEmail</h2> <br> <strong style=\"font-size: 2em\">Mensaje:</strong> <p style=\"font-size: 1.3em\">$bodyEmail</p>";
+      $mail->Body = "<h2>Nombre: $name</h2> <br> 
+      <h2>Desde: $userEmail</h2> <br> 
+      <strong style=\"font-size: 2em\">Mensaje:</strong> <p style=\"font-size: 1.3em\">$bodyEmail</p>";
   
   
       if (!$mail->send()) {
