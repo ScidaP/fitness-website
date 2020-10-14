@@ -35,8 +35,9 @@ $result = "";
   
       $mail->isHTML(true);
       $mail->Subject = "Asunto: $subject";
-      $mail->Body = "<h2>Nombre: $name</h2> <br> 
-      <h2>Desde: $userEmail</h2> <br> 
+      $mail->Body = "<h1>ESTE ES UN MAIL ENVIADO POR EL USUARIO $name DESDE LA PÁGINA CONTÁCTANOS</h1><br>
+      <h2>Nombre del usuario: $name</h2> <br> 
+      <h2>Email del usuario: $userEmail</h2> <br> 
       <strong style=\"font-size: 2em\">Mensaje:</strong> <p style=\"font-size: 1.3em\">$bodyEmail</p>";
   
   
