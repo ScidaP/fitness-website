@@ -164,6 +164,7 @@ blockquote p {
 /* Inicio de MUSICA */
 
 .main-musica {
+    /* El background-image se setea con código de index.js*/
     background-position: center;
     background-repeat: repeat;
     background-size: contain;
@@ -226,4 +227,40 @@ textarea {
     font-size: 1.8em;
 }
 
+.valid {
+    border: 0.12em solid green;
+    border-radius: .25rem;
+}
+
+.invalid {
+    border: 0.12em solid red;
+    border-radius: .25rem;
+}
+
 /* FIN de CONTACTANOS */
+
+/* INICIO del main de CARDIO */
+
+.parallax {
+    /* El background-image se setea con código de index.js*/
+    /* Set a specific height */
+    height: 700px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fa-check-circle { 
+    color: green !important;
+}
+
+.jumbotron {
+    background-image: linear-gradient( 44.8deg,  rgba(255,136,102,0.67) -53.1%, rgba(255,221,136,0.28) 49% ) !important;
+}
+
+.main-cardio {
+    background-image: linear-gradient( 1.9deg,  rgba(202,253,233,1) -15.5%, rgba(255,255,255,1) 80.9% ) !important;
+}

@@ -35,8 +35,8 @@ $result = "";
   
       $mail->isHTML(true);
       $mail->Subject = "Asunto: $subject";
-      $mail->Body = "<h1>ESTE ES UN MAIL ENVIADO POR EL USUARIO $name DESDE LA PÁGINA CONTÁCTANOS</h1><br>
-      <h2>Nombre del usuario: $name</h2> <br> 
+      $mail->Body = "<h1>ESTE ES UN MAIL ENVIADO POR EL USUARIO <p style=\"color: red;\">$name</p> DESDE LA PÁGINA CONTÁCTANOS</h1><br>
+      <h2>Nombre del usuario: <p style=\"color: red;\">$name</p></h2> <br> 
       <h2>Email del usuario: $userEmail</h2> <br> 
       <strong style=\"font-size: 2em\">Mensaje:</strong> <p style=\"font-size: 1.3em\">$bodyEmail</p>";
   
@@ -75,22 +75,22 @@ $result = "";
               <a class="nav-link" href="../index.html">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="ejer_conpesa.html">Ejercicios con Pesas</a>
+              <a class="nav-link" href="../html/ejer_conpesa.html">Ejercicios con Pesas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="ejer_sinpesa.html">Ejercicios sin Pesas</a>
+              <a class="nav-link" href="../html/ejer_sinpesa.html">Ejercicios sin Pesas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="cardio.html">Cardio</a>
+              <a class="nav-link" href="../html/cardio.html">Cardio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="nutricion.html">Nutrición</a>
+              <a class="nav-link" href="../html/nutricion.html">Nutrición</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="../html/musica.html">Música</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="compartir.html">Compartir</a>
+              <a class="nav-link" href="../html/compartir.html">Compartir</a>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="contactanos.html">Contáctanos</a>
@@ -99,40 +99,14 @@ $result = "";
         </div>
       </nav>
       <main class="main">
-        <h1 class="display-1 mx-auto titulo" style="font-size: 4em;">Mándanos un mensaje</h1>
+        <h1 class="display-1 mx-auto titulo" style="font-size: 4em;">¡Recibido!</h1>
         <h5 class="text-center text-success"><?= $result;?></h5>
-        <form class="w-100 mx-auto text-center" action="" method="POST">
-          <div class="input-group mb-4 w-50 mx-auto">
-            <div class="input-group-prepend">
-              <div class="input-group-text"><i class="fas fa-user"></i></div>
-            </div>
-            <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Ingresa tu nombre" name="name" required>
-          </div>
-          <div class="input-group mb-4 w-50 mx-auto">
-            <div class="input-group-prepend">
-              <div class="input-group-text"><i class="fas fa-at"></i></div>
-            </div>
-            <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Ingresa tu email" name="email" required>
-          </div>
-          <div class="input-group mb-4 w-50 mx-auto">
-            <div class="input-group-prepend">
-              <div class="input-group-text"><i class="fas fa-envelope"></i></div>
-            </div>
-            <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Ingresa el asunto" name="subject" required>
-          </div>
-          <div class="input-group mb-4 w-50 mx-auto">
-            <div class="input-group-prepend">
-              <div class="input-group-text"><i class="fas fa-comment-alt"></i></div>
-            </div>
-            <textarea class="form-control" id="validationTextarea" placeholder="Escriba su mensaje" cols="30" rows="6" name="msg" required></textarea>
-          </div>
-          <div class="container-submit">
-            <input class="btn btn-primary w-25 mt-4 mb-5" type="submit" value="Enviar" name="submit">
-          </div>
-        </form>
+        <br>
+        <h1 class="display-1 mx-auto titulo">Seguí navegado</h1>
       </main>
 </body>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="../src/index.js"></script>
 </html>
