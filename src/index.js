@@ -8,10 +8,45 @@ if (window.location.toString().match("index.html")) {
 cambiarFondo();
 }
 
-if (window.location.toString().match("musica.html")) {
+if ((window.location.toString().match("musica.html")) || (window.location.toString().match("cardio.html"))) {
     var $mainMusica = document.getElementsByClassName("main-musica");
-
+    var $parallaxCardio = document.getElementsByClassName("parallax");
     var images = ['A1.jpg', 'A2.jpg', 'A3.jpg', 'A4.jpg', 'A5.jpg', 'A6.jpg', 'A7.jpg', 'A8.jpg', 'A9.jpg', 'A10.jpg', 'A11.jpg', 'A12.jpg'];
-    $(".main-musica").css({'background-image': 'url(../img/parallax/' + images[Math.floor(Math.random() * images.length)] + ')'});
-    // Código para que el background image de la pag "musica.html" cambie con cada refresh.
+
+    if (window.location.toString().match("musica.html")) {
+        cambiarBg($mainMusica);
+    } else {
+        cambiarBg($parallaxCardio);
+    }
+
+    function cambiarBg(a) {
+        $(a).css({'background-image': 'url(../img/parallax/' + images[Math.floor(Math.random() * images.length)] + ')'});
+    }
+
+    // Código para que el background image de la pag "musica.html" y el parallax de "cardio.html" cambie con cada refresh.
+}
+
+if (window.location.toString().match("contactanos.html")) {
+    var $form = document.getElementById('form');
+
+    var $text = document.getElementById('text');
+
+    function validarEmail() {
+        var $emailBox = document.getElementById('email');
+        var $email = document.getElementById("email").value;
+
+        var emailPattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+
+        if ($email.match(emailPattern)) {
+            $emailBox.classList.add("valid");
+            $emailBox.classList.remove("invalid");
+        } else {
+            $emailBox.classList.remove("valid")
+            $emailBox.classList.add("invalid");
+        }
+        if ($email = "") {
+            $emailBox.classList.remove("valid");
+            $emailBox.classList.remove("invalid");
+        }
+    }
 }
