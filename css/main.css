@@ -283,3 +283,11 @@ textarea {
     flex-direction: row;
     justify-content: space-around;
 }
+
+/* FIN del Main de CARDIO */
+
+/* Inicio del Main de NUTRICION */
+
+.contenedor-texto {
+    margin: 5em 5em;
+}
