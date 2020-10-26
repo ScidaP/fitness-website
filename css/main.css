@@ -291,3 +291,21 @@ textarea {
 .contenedor-texto {
     margin: 5em 5em;
 }
+
+.container-ais {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.listfade-container {
+    margin-top: 3em;
+}
+
+/* Fin de INICIO del Main de NUTRICION */
+
+/* Inicio FOOTER */
+
+.ola {
+    width: 100%;
+}
