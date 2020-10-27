@@ -1,4 +1,4 @@
-if (window.location.toString().match("index.html")) {
+if (window.location.toString().match("home")) {
     var $carouselImg = document.getElementsByClassName("carousel-item");
 
     function cambiarFondo() {
