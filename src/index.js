@@ -76,10 +76,12 @@ if ($main) {
     var alturaGradient = ["90%", "40%"];
     cambiarGradient($main);
     function cambiarGradient(a) {
+        var j;
         if (window.location.toString().match("contactanos")) {
-            $(a).css({'background-image': 'linear-gradient( 180deg,  rgba(245,245,245,1) ' + alturaGradient[1] + ', rgba(' + colores[Math.floor(Math.random() * colores.length)] + '0.65) 98.1% )'})
+            j = 1;
         } else {
-            $(a).css({'background-image': 'linear-gradient( 180deg,  rgba(245,245,245,1) ' + alturaGradient[0] + ', rgba(' + colores[Math.floor(Math.random() * colores.length)] + '0.65) 98.1% )'})
+            j = 0;
         }
+        $(a).css({'background-image': 'linear-gradient( 180deg,  rgba(245,245,245,1) ' + alturaGradient[j] + ', rgba(' + colores[Math.floor(Math.random() * colores.length)] + '0.65) 98.1% )'})
     }
 }
