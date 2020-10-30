@@ -8,13 +8,21 @@ if (window.location.toString().match("home")) {
 cambiarFondo();
 }
 
-if ((window.location.toString().match("musica.html")) || (window.location.toString().match("cardio.html")) || (window.location.toString().match("nutricion.html"))) {
-    var $mainMusica = document.getElementsByClassName("main-musica");
-    var $parallax = document.getElementsByClassName("parallax");
-    var images = ['A1.jpg', 'A2.jpg', 'A3.jpg', 'A4.jpg', 'A5.jpg', 'A6.jpg', 'A7.jpg', 'A8.jpg', 'A9.jpg', 'A10.jpg', 'A11.jpg', 'A12.jpg'];
+var images = ['A1.jpg', 'A2.jpg', 'A3.jpg', 'A4.jpg', 'A5.jpg', 'A6.jpg', 'A7.jpg', 'A8.jpg', 'A9.jpg', 'A10.jpg', 'A11.jpg', 'A12.jpg'];
 
-    if (window.location.toString().match("musica.html")) {
+if ((window.location.toString().match("musica.php")) || (window.location.toString().match("cardio.php")) || (window.location.toString().match("nutricion.php"))
+|| (window.location.toString().match("ejer_conpesa")) || (window.location.toString().match("ejer_sinpesa"))) {
+    var $mainMusica = document.getElementsByClassName("main-musica");
+    var $mainConPesa = document.getElementsByClassName("main-ejerconpesa");
+    var $mainSinPesa = document.getElementsByClassName("main-ejersinpesa");
+    var $parallax = document.getElementsByClassName("parallax");
+
+    if (window.location.toString().match("musica.php")) {
         cambiarBg($mainMusica);
+    } else if (window.location.toString().match("ejer_sinpesa")) {
+        cambiarBg($mainSinPesa);
+    } else if (window.location.toString().match("ejer_conpesa")) {
+        cambiarBg($mainConPesa);
     } else {
         cambiarBg($parallax);
     }
@@ -22,11 +30,10 @@ if ((window.location.toString().match("musica.html")) || (window.location.toStri
     function cambiarBg(a) {
         $(a).css({'background-image': 'url(../img/parallax/' + images[Math.floor(Math.random() * images.length)] + ')'});
     }
-
-    // Código para que el background image de la pag "musica.html" y el parallax de "cardio.html" cambie con cada refresh.
+// Código para que el background image de la pag "musica.php" y el parallax de "cardio.php" cambie con cada refresh.
 }
 
-if (window.location.toString().match("contactanos.html")) {
+if (window.location.toString().match("contactanos.php")) {
     var $form = document.getElementById('form');
 
     var $text = document.getElementById('text');
@@ -47,6 +54,32 @@ if (window.location.toString().match("contactanos.html")) {
         if ($email = "") {
             $emailBox.classList.remove("valid");
             $emailBox.classList.remove("invalid");
+        }
+    }
+}
+
+var $navItem = document.getElementsByClassName('nav-item');
+var paginas = ["home", "ejer_conpesa", "ejer_sinpesa", "cardio", "nutricion", "musica", "compartir", "contactanos"];
+
+var i;
+
+for (i=0; i < paginas.length; i++) { // Código para que los items de la navegación tengan la class "active" -> Se vean blancos al estar en esa página.
+    if (window.location.toString().match(paginas[i])) {
+        $navItem[i].classList.add("active");
+    }
+}
+
+$main = document.getElementsByClassName("main");
+
+if ($main) {
+    var colores = ["239, 243, 17, ", "86, 243, 176, ", "14, 232, 209, ", "8, 88, 218, ", "130, 16, 231, ", "231, 16, 208, ", "89, 0, 218, ", "243, 118, 0, "];
+    var alturaGradient = ["90%", "40%"];
+    cambiarGradient($main);
+    function cambiarGradient(a) {
+        if (window.location.toString().match("contactanos")) {
+            $(a).css({'background-image': 'linear-gradient( 180deg,  rgba(245,245,245,1) ' + alturaGradient[1] + ', rgba(' + colores[Math.floor(Math.random() * colores.length)] + '0.65) 98.1% )'})
+        } else {
+            $(a).css({'background-image': 'linear-gradient( 180deg,  rgba(245,245,245,1) ' + alturaGradient[0] + ', rgba(' + colores[Math.floor(Math.random() * colores.length)] + '0.65) 98.1% )'})
         }
     }
 }
