@@ -18,31 +18,31 @@
       <div class="main-container">
         <ul class="container-aside navbar-nav">
           <li class="nav-item">
-            <a class ="nav-link navside" href="ejer_sinpesa.php#abd-sinpesa"><i class="fas fa-running mr-1"></i>Abdominales</a>
+            <a class ="nav-link navside" href="ejer_sinpesa#abd-sinpesa"><i class="fas fa-running mr-1"></i>Abdominales</a>
           </li>
           <li class="nav-item">
-            <a class ="nav-link navside" href="ejer_sinpesa.php#ant-sinpesa"><i class="fas fa-running mr-1"></i>Antebrazo</a>
+            <a class ="nav-link navside" href="ejer_sinpesa#ant-sinpesa"><i class="fas fa-running mr-1"></i>Antebrazo</a>
           </li>
           <li class="nav-item">
-            <a class ="nav-link navside" href="ejer_sinpesa.php#bicep-sinpesa"><i class="fas fa-running mr-1"></i>Biceps</a>
+            <a class ="nav-link navside" href="ejer_sinpesa#bicep-sinpesa"><i class="fas fa-running mr-1"></i>Biceps</a>
           </li>
           <li class="nav-item">
-            <a class ="nav-link navside" href="ejer_sinpesa.php#espalda-sinpesa"><i class="fas fa-running mr-1"></i>Espalda</a>
+            <a class ="nav-link navside" href="ejer_sinpesa#espalda-sinpesa"><i class="fas fa-running mr-1"></i>Espalda</a>
           </li>
           <li class="nav-item">
-            <a class ="nav-link navside" href="ejer_sinpesa.php#hombro-sinpesa"><i class="fas fa-running mr-1"></i>Hombros</a>
+            <a class ="nav-link navside" href="ejer_sinpesa#hombro-sinpesa"><i class="fas fa-running mr-1"></i>Hombros</a>
           </li>
           <li class="nav-item">
-            <a class ="nav-link navside" href="ejer_sinpesa.php#pect-sinpesa"><i class="fas fa-running mr-1"></i>Pectorales</a>
+            <a class ="nav-link navside" href="ejer_sinpesa#pect-sinpesa"><i class="fas fa-running mr-1"></i>Pectorales</a>
           </li>
           <li class="nav-item">
-            <a class ="nav-link navside" href="ejer_sinpesa.php#pierna-sinpesa"><i class="fas fa-running mr-1"></i>Piernas</a>
+            <a class ="nav-link navside" href="ejer_sinpesa#pierna-sinpesa"><i class="fas fa-running mr-1"></i>Piernas</a>
           </li>
           <li class="nav-item">
-            <a class ="nav-link navside" href="ejer_sinpesa.php#trap-sinpesa"><i class="fas fa-running mr-1"></i>Trapecios</a>
+            <a class ="nav-link navside" href="ejer_sinpesa#trap-sinpesa"><i class="fas fa-running mr-1"></i>Trapecios</a>
           </li>
           <li class="nav-item">
-            <a class ="nav-link navside" href="ejer_sinpesa.php#tric-sinpesa"><i class="fas fa-running mr-1"></i>Triceps</a>
+            <a class ="nav-link navside" href="ejer_sinpesa#tric-sinpesa"><i class="fas fa-running mr-1"></i>Triceps</a>
           </li>
         </ul>
         <main class="main main-ejersinpesa">

@@ -42,13 +42,14 @@ html {
 
 body {
     height: 100%;
+    background-color: whitesmoke;
 }
 
 /* ------ MAIN ------ */
 
 .main {
     width: 80%;
-    background-color: whitesmoke;
+    background-color: white;
     margin: 0 auto;
     display: flex;
     flex-direction: column;

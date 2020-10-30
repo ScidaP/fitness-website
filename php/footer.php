@@ -25,7 +25,7 @@
             <div>
               <h3 class="user-select-none">¿Estás perdido?</h3>
               <h3 class="user-select-none">¿Necesitás ayuda?</h3>
-              <h4><a href="contactanos.html">Contáctanos</a></h4>
+              <h4><a href="contactanos.php">Contáctanos</a></h4>
             </div>
             <img src="../img/needhelp.png" height="500px" width="460px">
           </div>

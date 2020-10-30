@@ -10,14 +10,14 @@ cambiarFondo();
 
 var images = ['A1.jpg', 'A2.jpg', 'A3.jpg', 'A4.jpg', 'A5.jpg', 'A6.jpg', 'A7.jpg', 'A8.jpg', 'A9.jpg', 'A10.jpg', 'A11.jpg', 'A12.jpg'];
 
-if ((window.location.toString().match("musica.php")) || (window.location.toString().match("cardio.php")) || (window.location.toString().match("nutricion.php"))
+if ((window.location.toString().match("musica")) || (window.location.toString().match("cardio")) || (window.location.toString().match("nutricion"))
 || (window.location.toString().match("ejer_conpesa")) || (window.location.toString().match("ejer_sinpesa"))) {
     var $mainMusica = document.getElementsByClassName("main-musica");
     var $mainConPesa = document.getElementsByClassName("main-ejerconpesa");
     var $mainSinPesa = document.getElementsByClassName("main-ejersinpesa");
     var $parallax = document.getElementsByClassName("parallax");
 
-    if (window.location.toString().match("musica.php")) {
+    if (window.location.toString().match("musica")) {
         cambiarBg($mainMusica);
     } else if (window.location.toString().match("ejer_sinpesa")) {
         cambiarBg($mainSinPesa);
@@ -30,10 +30,10 @@ if ((window.location.toString().match("musica.php")) || (window.location.toStrin
     function cambiarBg(a) {
         $(a).css({'background-image': 'url(../img/parallax/' + images[Math.floor(Math.random() * images.length)] + ')'});
     }
-// Código para que el background image de la pag "musica.php" y el parallax de "cardio.php" cambie con cada refresh.
+// Código para que el background image de la pag "musica" y el parallax de "cardio" cambie con cada refresh.
 }
 
-if (window.location.toString().match("contactanos.php")) {
+if (window.location.toString().match("contactanos")) {
     var $form = document.getElementById('form');
 
     var $text = document.getElementById('text');
@@ -82,6 +82,8 @@ if (window.location.toString().match("cardio") || window.location.toString().mat
         } else {
             j = 0;
         }
-        $(a).css({'background-image': 'linear-gradient( 180deg,  rgba(245,245,245,1) ' + alturaGradient[j] + ', rgba(' + colores[Math.floor(Math.random() * colores.length)] + '0.65) 98.1% )'})
+        $(a).css({'background-image': 'linear-gradient( 180deg,  rgba(255,255,255,1) ' + alturaGradient[j] + ', rgba(' + colores[Math.floor(Math.random() * colores.length)] + '0.65) 98.1% )'})
     }
 }
+
+$('img').attr('draggable', false); // Las imágenes no se pueden arrastrar.
