@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300;500&display=swap" rel="stylesheet"> 
+    <link rel="shortcut icon" href="../img/favicon.ico">
+    <link rel="stylesheet" href="../css/fontawesomecss/all.min.css">
+    <title>BeFit</title>
+</head>
+<body>
+  <header class="header">
+
+  </header>
+  <?php include '../php/nav.php'?>
+      <main class="main main-cardio">
+        <div class="jumbotron mt-4 ml-4 mr-4">
+          <h1 class="display-4">Tenés que hacer cardio</h1>
+          <p class="lead">Se dicen muchas cosas sobre los beneficios de hacer cardio. ¿Estás informado? ¿O crees que estás informado?</p>
+          <hr class="my-4">
+          <p>Existen muchos beneficios, existen rumores, existen fundamentos respaldados por la ciencia. ¿Sabés cuáles son?</p>
+          <a class="btn btn-primary btn-lg" href="#cardio" role="button">Aprender más</a>
+        </div>
+        <div class="parallax"></div>
+        <h1 class="display-1 mx-auto titulo" id="cardio" style="text-shadow: none; color: black;">BENEFICIOS DEL CARDIO</h1>
+        <h3 class="ml-5">Aunque ya lo habrás escuchado, vale la pena recordarte qué aportan los ejercicios cardiovasculares, por eso es importante hacer cardio.</h3>
+        <ul class="list-group list-group-flush w-50 mx-auto mt-4 listcontainer">
+          <li class="list-group-item"><i class="fas fa-check-circle mr-3"></i>Pérdida de grasa</li>
+          <li class="list-group-item"><i class="fas fa-check-circle mr-3"></i>Mejoran el sueño</li>
+          <li class="list-group-item"><i class="fas fa-check-circle mr-3"></i>Mejora el equilibrio del sistema nervioso</li>
+          <li class="list-group-item"><i class="fas fa-check-circle mr-3"></i>Reduce notablemente el riesgo de padecer de hipertensión, diabetes y mantiene a raya los niveles altos de colesterol.</li>
+        </ul>
+        <p class="w-75 mx-auto mt-4">   La mayoría de los deportes nos exigen una buena condición física para poder tener un mejor rendimiento en el entrenamiento.
+           Lo mismo sucede en la vida cotidiana y no hay mejor aliado para conquistar ese escalón fitness que el ejercicio cardiovascular.<br></p>
+        <figure class="figure cardiogif-container mt-2">
+          <img src="../media/cardio gif/skipping.gif" class="w-50 ml-5 gif-cardio figure-img img-fluid rounded">
+          <figcaption class="figure-caption w-50 ml-5"> Para llevarlo a cabo solo debes llevar las rodillas lo más alto posible pasando la altura horizontal (de la pelvis) y alternar lo más rápido que se pueda la elevación de las piernas, coordinando brazo y pierna contrarios. Mientras se realizan los movimientos anteriores, el tronco debe mantenerse recto y la zona media contraída, para evitar lesiones.</figcaption>
+        </figure>
+        <p class="w-75 mx-auto mt-4">
+          Si te propones una rutina de ejercicios cardiovasculares estarás en el camino de lograr increíbles beneficios, los cuales te ayudarán a disfrutar de una mejor salud general, incrementarán tu rendimiento en todas las esferas de tu vida y, también, van a aportarte una mejor apariencia física.
+        </p>
+        <figure class="figure cardiogif-container mt-2">
+          <img src="../media/cardio gif/saltar la soga.gif" class="w-50 ml-5 gif-cardio figure-img img-fluid rounded">
+          <figcaption class="figure-caption w-50 ml-5">Salta sobre la cuerda con los dos pies juntos a un ritmo moderado. Mantén los tobillos y rodillas relajados para absorber el impacto. Trata de que sea un movimiento fluido en lugar de dos posiciones diferentes. Aumenta la velocidad de la cuerda y el ritmo al que saltas.</figcaption>
+        </figure>
+
+        <h3 class="mx-auto">¿CÓMO PRACTICARLO?</h3>
+        <p class="w-75 mx-auto mt-4">Es recomendable hacer 3 veces a la semana una sesión de ejercicios cardiovasculares de 30 a 45 min dependiendo la intensidad que le pongamos a nuestro entrenamiento y de la forma física que tengamos. Luego, el rigor debe ir incrementándose.<br><br>
+        </p>
+        <figure class="figure cardiogif-container mt-2">
+          <img src="../media/cardio gif/talones al gluteo.gif" class="w-50 ml-5 gif-cardio figure-img img-fluid rounded">
+          <figcaption class="figure-caption w-50 ml-5">Párese de pie con los pies separados a la altura de los hombros y mirando hacia adelante. Comience a patear sus pies hacia arriba, hasta que los talones toquen los glúteos, y bombee sus brazos al mismo tiempo. </figcaption>
+        </figure>
+        <p class="mx-auto">Cuando estás de viaje y no tienes tiempo de ir hasta el gimnasio o prefieres el aire libre, la recomendación es caminar, trotar y pedalear en tu bicicleta.<br><br>
+        </p>
+        <figure class="figure cardiogif-container mt-2">
+          <img src="../media/cardio gif/lateral shuffle taps.gif" class="w-50 ml-5 gif-cardio figure-img img-fluid rounded">
+          <figcaption class="figure-caption w-50 ml-5">Párese sobre una pierna con una ligera inclinación en la rodilla y con la otra pierna levantada del piso. Salte lateralmente, cayendo con el pie contrario.  Haga una pausa y luego salte una vez hacia arriba antes de rebotar de nuevo a la posición inicial.</figcaption>
+        </figure>
+        <p class="mx-auto">
+          Si estamos en un gimnasio, podemos utilizar la caminadora, elíptica o la escalera, que es uno de los más potentes para la quema de calorías.
+        </p>
+        <div class="container-cardio">
+          <figure class="figure mt-1" style="width: 100%;">
+            <img src="../media/cardio gif/burpees.gif" class="w-75 ml-5 gif-cardio figure-img img-fluid rounded" style="width: 30rem;">
+            <figcaption class="figure-caption w-75 ml-5">Para realizar el ejercicio de burpees se parte de una posición inicial en cuclillas, se colocan las manos en el suelo y se mantiene la cabeza erguida.
+              Después se desplazan las piernas hacia atrás con los pies juntos y se hace una flexión de pecho. Aquí debe mantenerse la espalda recta y tocar el suelo con el pecho.
+              A continuación, se recogen las piernas para volver a la posición inicial. El movimiento debe ser fluido, por lo que es importante trabajar la coordinación.
+              Por último, desde la posición inicial se levanta todo el cuerpo de un salto vertical elevando las manos. Se puede dar una palmada por encima de la cabeza. Recuerda que es importante amortiguar la caída y aterrizar de la manera más suave posible. Después vuelve a la posición de cuclillas para repetir el ejercicio.
+              </figcaption>
+          </figure>
+          <figure class="figure mt-1" style="width: 100%;">
+            <img src="../media/cardio gif/jumping jacks.gif" class="w-75 ml-5 gif-cardio figure-img img-fluid rounded" style="width: 30rem;">
+            <figcaption class="figure-caption w-75 ml-5">Primero, sitúate de pie con los pies juntos y los brazos extendidos a lo largo del cuerpo. Luego, salta con las piernas y los pies a los lados, mientras levantas los brazos por encima de la cabeza. Posteriormente, sin hacer una pausa, debes volver a la posición inicial bajando los brazos y saltando para volver a estar juntos. Debes asegurarte de mantener las rodillas relajadas y de flexionarlas un poco mientras aterrizas. Esto hará que evites lesiones por el impacto repetitivo.</figcaption>
+          </figure>
+        </div>
+        <img src="../img/wave5.png" class="ola">
+      </main>
+      <?php include '../php/footer.php'?>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="../src/index.js"></script>
+</html>
