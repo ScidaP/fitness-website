@@ -18,31 +18,31 @@
       <div class="main-container">
         <ul class="container-aside navbar-nav">
           <li class="nav-item">
-            <a class ="nav-link navside" href="ejer_conpesa.html#abd-conpesa"><i class="fas fa-dumbbell mr-1"></i>Abdominales</a>
+            <a class ="nav-link navside" href="ejer_conpesa.php#abd-conpesa"><i class="fas fa-dumbbell mr-1"></i>Abdominales</a>
           </li>
           <li class="nav-item">
-            <a class ="nav-link navside" href="ejer_conpesa.html#ant-conpesa"><i class="fas fa-dumbbell mr-1"></i>Antebrazo</a>
+            <a class ="nav-link navside" href="ejer_conpesa.php#ant-conpesa"><i class="fas fa-dumbbell mr-1"></i>Antebrazo</a>
           </li>
           <li class="nav-item">
-            <a class ="nav-link navside" href="ejer_conpesa.html#bicep-conpesa"><i class="fas fa-dumbbell mr-1"></i>Biceps</a>
+            <a class ="nav-link navside" href="ejer_conpesa.php#bicep-conpesa"><i class="fas fa-dumbbell mr-1"></i>Biceps</a>
           </li>
           <li class="nav-item">
-            <a class ="nav-link navside" href="ejer_conpesa.html#espalda-conpesa"><i class="fas fa-dumbbell mr-1"></i>Espalda</a>
+            <a class ="nav-link navside" href="ejer_conpesa.php#espalda-conpesa"><i class="fas fa-dumbbell mr-1"></i>Espalda</a>
           </li>
           <li class="nav-item">
-            <a class ="nav-link navside" href="ejer_conpesa.html#hombro-conpesa"><i class="fas fa-dumbbell mr-1"></i>Hombros</a>
+            <a class ="nav-link navside" href="ejer_conpesa.php#hombro-conpesa"><i class="fas fa-dumbbell mr-1"></i>Hombros</a>
           </li>
           <li class="nav-item">
-            <a class ="nav-link navside" href="ejer_conpesa.html#pect-conpesa"><i class="fas fa-dumbbell mr-1"></i>Pectorales</a>
+            <a class ="nav-link navside" href="ejer_conpesa.php#pect-conpesa"><i class="fas fa-dumbbell mr-1"></i>Pectorales</a>
           </li>
           <li class="nav-item">
-            <a class ="nav-link navside" href="ejer_conpesa.html#pierna-conpesa"><i class="fas fa-dumbbell mr-1"></i>Piernas</a>
+            <a class ="nav-link navside" href="ejer_conpesa.php#pierna-conpesa"><i class="fas fa-dumbbell mr-1"></i>Piernas</a>
           </li>
           <li class="nav-item">
-            <a class ="nav-link navside" href="ejer_conpesa.html#trap-conpesa"><i class="fas fa-dumbbell mr-1"></i>Trapecios</a>
+            <a class ="nav-link navside" href="ejer_conpesa.php#trap-conpesa"><i class="fas fa-dumbbell mr-1"></i>Trapecios</a>
           </li>
           <li class="nav-item">
-            <a class ="nav-link navside" href="ejer_conpesa.html#tric-conpesa"><i class="fas fa-dumbbell mr-1"></i>Triceps</a>
+            <a class ="nav-link navside" href="ejer_conpesa.php#tric-conpesa"><i class="fas fa-dumbbell mr-1"></i>Triceps</a>
           </li>
         </ul>
         <main class="main main-ejerconpesa">
