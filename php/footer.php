@@ -11,7 +11,7 @@
             
               <dt class="col-sm-3">¿Encontraste un error?</dt>
               <dd class="col-sm-9 mb-5">
-                <p>Repórtalo. <a href="contactanos.html">Envíanos</a> un mensaje.</p>
+                <p>Repórtalo. <a href="contactanos">Envíanos</a> un mensaje.</p>
               </dd>
             
               <dt class="col-sm-3">Comparte la página</dt>
@@ -25,7 +25,7 @@
             <div>
               <h3 class="user-select-none">¿Estás perdido?</h3>
               <h3 class="user-select-none">¿Necesitás ayuda?</h3>
-              <h4><a href="contactanos.php">Contáctanos</a></h4>
+              <h4><a href="contactanos">Contáctanos</a></h4>
             </div>
             <img src="../img/needhelp.png" height="500px" width="460px">
           </div>

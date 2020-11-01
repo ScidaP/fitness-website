@@ -8,7 +8,7 @@ if (window.location.toString().match("home")) {
 cambiarFondo();
 }
 
-var images = ['A1.jpg', 'A2.jpg', 'A3.jpg', 'A4.jpg', 'A5.jpg', 'A6.jpg', 'A7.jpg', 'A8.jpg', 'A9.jpg', 'A10.jpg', 'A11.jpg', 'A12.jpg'];
+var images = ['A1.jpg', 'A2.jpg', 'A3.jpg', 'A4.jpg', 'A5.jpg', 'A6.jpg', 'A7.jpg', 'A8.jpg', 'A9.jpg', 'A10.jpg', 'A11.jpg', 'A12.jpg', 'A13.jpg', 'A14.jpg', 'A15.jpg'];
 
 if ((window.location.toString().match("musica")) || (window.location.toString().match("cardio")) || (window.location.toString().match("nutricion"))
 || (window.location.toString().match("ejer_conpesa")) || (window.location.toString().match("ejer_sinpesa"))) {
@@ -71,13 +71,14 @@ for (i=0; i < paginas.length; i++) { // Código para que los items de la navegac
 
 $main = document.getElementsByClassName("main");
 
-if (window.location.toString().match("cardio") || window.location.toString().match("nutricion") || window.location.toString().match("musica") || window.location.toString().match("contactanos")) {
+if (window.location.toString().match("cardio") || window.location.toString().match("nutricion") || window.location.toString().match("musica") 
+|| window.location.toString().match("contactanos") || window.location.toString().match("enviado")) {
     var colores = ["239, 243, 17, ", "86, 243, 176, ", "14, 232, 209, ", "8, 88, 218, ", "130, 16, 231, ", "231, 16, 208, ", "89, 0, 218, ", "243, 118, 0, "];
     var alturaGradient = ["90%", "40%"];
     cambiarGradient($main);
     function cambiarGradient(a) {
         var j;
-        if (window.location.toString().match("contactanos")) {
+        if (window.location.toString().match("contactanos") || window.location.toString().match("enviado")) {
             j = 1;
         } else {
             j = 0;

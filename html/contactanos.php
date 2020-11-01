@@ -18,7 +18,7 @@
       <main class="main main-contactanos">
         <h1 class="display-1 mx-auto titulo" style="font-size: 4em; text-shadow: none; color: black;">Mándanos un mensaje</h1>
         <h5 class="text-center text-success"></h5>
-        <form class="w-100 text-center" action="../php/contactanos.php" method="POST" id="form">
+        <form class="w-100 text-center" action="../php/enviado" method="POST" id="form">
           <div class="input-group mb-4 w-50 mx-auto">
             <div class="input-group-prepend">
               <div class="input-group-text"><i class="fas fa-user"></i></div>

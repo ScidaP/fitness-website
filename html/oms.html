@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300;500&display=swap" rel="stylesheet"> 
     <link rel="shortcut icon" href="../img/favicon.ico">
+    <link rel="stylesheet" href="../css/fontawesomecss/all.min.css">
     <title>BeFit</title>
 </head>
 <body>
@@ -55,6 +56,42 @@
           </p>
         <h1 class="titulo mx-auto" style="color: black; text-shadow: none">¿Cuánta actividad física se recomienda?</h1>
         <h3 class="mx-auto">Recomendaciones de la OMS:</h3>
+        <div class="row ml-2 mr-2">
+          <div class="col-4">
+            <div class="list-group" id="list-tab" role="tablist">
+              <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Para niños y adolescentes de 5 a 17 años de edad</a>
+              <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Para adultos de 18 a 64 años de edad</a>
+              <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Para adultos de 65 o más años de edad</a>
+            </div>
+          </div>
+          <div class="col-8">
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                <ul class="list-group list-group-flush mx-auto">
+                  <li class="list-group-item"><i class="fas fa-check-circle mr-3"></i>Practicar al menos 60 minutos diarios de actividad física moderada o intensa.</li>
+                  <li class="list-group-item"><i class="fas fa-check-circle mr-3"></i>Duraciones superiores a los 60 minutos de actividad física procuran aún mayores beneficios para la salud.</li>
+                  <li class="list-group-item"><i class="fas fa-check-circle mr-3"></i>Ello debe incluir actividades que fortalezcan los músculos y huesos, por lo menos tres veces a la semana.</li>
+                </ul>
+              </div>
+              <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                <ul class="list-group list-group-flush mx-auto">
+                  <li class="list-group-item"><i class="fas fa-check-circle mr-3"></i>Practicar al menos 150 minutos semanales de actividad física moderada, o al menos 75 minutos semanales de actividad física intensa, o una combinación equivalente entre actividad moderada e intensa.</li>
+                  <li class="list-group-item"><i class="fas fa-check-circle mr-3"></i>Para obtener mayores beneficios para la salud los adultos deben llegar a 300 minutos semanales de actividad física moderada, o su equivalente.</li>
+                  <li class="list-group-item"><i class="fas fa-check-circle mr-3"></i>Conviene realizar las actividades de fortalecimiento muscular 2 o más días a la semana y de tal manera que se ejerciten grandes conjuntos musculares.</li>
+                </ul>
+              </div>
+              <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+                <ul class="list-group list-group-flush mx-auto">
+                  <li class="list-group-item"><i class="fas fa-check-circle mr-3"></i>Practicar al menos 150 minutos semanales de actividad física moderada, o al menos 75 minutos semanales de actividad física intensa, o una combinación equivalente entre actividad moderada e intensa.</li>
+                  <li class="list-group-item"><i class="fas fa-check-circle mr-3"></i>Para obtener mayores beneficios para la salud estas personas deben llegar a 300 minutos semanales de actividad física moderada, o su equivalente.</li>
+                  <li class="list-group-item"><i class="fas fa-check-circle mr-3"></i>Las personas con problemas de movilidad deben practicar actividad física para mejorar su equilibrio y prevenir caídas por lo menos 3 días a la semana.</li>
+                  <li class="list-group-item"><i class="fas fa-check-circle mr-3"></i>Conviene realizar las actividades de fortalecimiento muscular 2 o más días a la semana y de tal manera que se ejerciten grandes conjuntos musculares.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h3 class="mt-4 ml-4 mr-4">La intensidad con que se practican distintas formas de actividad física varía según las personas. Para que beneficie a la salud cardiorrespiratoria, toda actividad debe realizarse en periodos de al menos 10 minutos de duración.</h3>
       </main>
 </body>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

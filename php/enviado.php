@@ -64,46 +64,15 @@ $result = "";
   <header class="header">
 
   </header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-        <a class="navbar-brand" href="../index.html"><img src="../img/logo.png" class="logo-web"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="../index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../html/ejer_conpesa.html">Ejercicios con Pesas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../html/ejer_sinpesa.html">Ejercicios sin Pesas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../html/cardio.html">Cardio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../html/nutricion.html">Nutrición</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../html/musica.html">Música</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../html/compartir.html">Compartir</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="contactanos.html">Contáctanos</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+    <?php require 'nav.php'?>
       <main class="main">
-        <h1 class="display-1 mx-auto titulo" style="font-size: 4em;">¡Recibido!</h1>
+        <h1 class="display-1 mx-auto titulo" style="font-size: 4em; text-shadow: none; color: black;">¡Recibido!</h1>
         <h5 class="text-center text-success"><?= $result;?></h5>
         <br>
-        <h1 class="display-1 mx-auto titulo">Seguí navegado</h1>
+        <h1 class="display-1 mx-auto titulo" style="text-shadow: none; color: black;">Seguí navegado</h1>
+        <img src="../img/wave5.png">
       </main>
+      <?php require 'footer.php'?>
 </body>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
