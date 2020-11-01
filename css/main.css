@@ -302,6 +302,15 @@ textarea {
 
 /* Fin de INICIO del Main de NUTRICION */
 
+/* OMS */
+
+#oms-logo {
+    height: 360px;
+    width: 640px;
+}
+
+/* FIN OMS */
+
 /* Inicio FOOTER */
 
 .ola {
@@ -322,4 +331,10 @@ footer {
 .container-marca {
     display: flex;
     flex-direction: column;
+}
+
+/* FIN FOOTER */
+
+#boton-cielo {
+    float: right;
 }

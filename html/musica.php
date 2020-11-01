@@ -11,7 +11,7 @@
     <title>BeFit</title>
 </head>
 <body>
-  <header class="header">
+  <header class="header" id="cielo">
   </header>
   <?php include '../php/nav.php'?>
       <main class="main-musica">
@@ -101,6 +101,7 @@
         </div>
         <img src="../img/wave5.png" class="ola">
       </main>
+      <?php include '../php/cielo.php' ?>
       <?php include '../php/footer.php'?>
 </body>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

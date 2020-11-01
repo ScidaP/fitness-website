@@ -59,7 +59,7 @@ if (window.location.toString().match("contactanos")) {
 }
 
 var $navItem = document.getElementsByClassName('nav-item');
-var paginas = ["home", "ejer_conpesa", "ejer_sinpesa", "cardio", "nutricion", "musica", "compartir", "contactanos"];
+var paginas = ["home", "ejer_conpesa", "ejer_sinpesa", "cardio", "nutricion", "musica", "oms", "contactanos"];
 
 var i;
 
@@ -72,7 +72,7 @@ for (i=0; i < paginas.length; i++) { // Código para que los items de la navegac
 $main = document.getElementsByClassName("main");
 
 if (window.location.toString().match("cardio") || window.location.toString().match("nutricion") || window.location.toString().match("musica") 
-|| window.location.toString().match("contactanos") || window.location.toString().match("enviado")) {
+|| window.location.toString().match("contactanos") || window.location.toString().match("enviado") || window.location.toString().match("oms")) {
     var colores = ["239, 243, 17, ", "86, 243, 176, ", "14, 232, 209, ", "8, 88, 218, ", "130, 16, 231, ", "231, 16, 208, ", "89, 0, 218, ", "243, 118, 0, "];
     var alturaGradient = ["90%", "40%"];
     cambiarGradient($main);

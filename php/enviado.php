@@ -64,7 +64,40 @@ $result = "";
   <header class="header">
 
   </header>
-    <?php require 'nav.php'?>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top nav-inicio">
+        <a class="navbar-brand" href="home"><img src="../img/logoblanco.png" class="logo-web"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../home">Inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="../html/ejer_conpesa">Ejercicios con Pesas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../html/ejer_sinpesa">Ejercicios sin Pesas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../html/cardio">Cardio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../html/nutricion">Nutrición</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../html/musica">Música</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../html/oms">Oms</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../html/contactanos">Contáctanos</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
       <main class="main">
         <h1 class="display-1 mx-auto titulo" style="font-size: 4em; text-shadow: none; color: black;">¡Recibido!</h1>
         <h5 class="text-center text-success"><?= $result;?></h5>

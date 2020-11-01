@@ -24,7 +24,7 @@
               <a class="nav-link" href="musica">Música</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="oms.html">Oms</a>
+              <a class="nav-link" href="oms">Oms</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contactanos">Contáctanos</a>
