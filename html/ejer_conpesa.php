@@ -48,7 +48,7 @@
         <main class="main main-ejerconpesa">
           <h1 class="display-1 mx-auto titulo" id="abd-conpesa">Abdominales</h1>
           <div class="card-container">
-            <div class="card card-gifs" style="width: 45rem;">
+            <div class="card card-gifs doble">
               <h5 class="card-title mx-auto mt-2">Antirotación con disco</h5>
               <img src="../media/ejercicios con pesas gif/abdominales/anti-rotacion con disco.gif" class="card-img-top" alt="...">
               <div class="card-body">
@@ -56,7 +56,7 @@
                   quiera. Gire hacia un costado y al otro sin realizar movimientos bruscos y manteniendo las piernas mirando al frente. </p>
               </div>
             </div>
-            <div class="card card-gifs" style="width: 45rem;">
+            <div class="card card-gifs doble">
               <h5 class="card-title mx-auto mt-2">Inclinación de torso con mancuerna</h5>
               <img src="../media/ejercicios con pesas gif/abdominales/inclinacion de torso con mancuerna.gif" class="card-img-top" alt="...">
               <div class="card-body">
@@ -67,7 +67,7 @@
             </div>
           </div>
           <div class="card-container">
-            <div class="card card-gifs mt-5" style="width: 45rem;">
+            <div class="card card-gifs mt-5 simple">
               <h5 class="card-title mx-auto mt-2">Levantamiento de rodillas al pecho en barra para realizar dominadas</h5>
               <img src="../media/ejercicios con pesas gif/abdominales/levantamiento de rodillas al pecho en barra para hacer dominadas.gif" class="card-img-top" alt="...">
               <div class="card-body">
@@ -78,7 +78,7 @@
           </div>
           <h1 class="display-1 mx-auto titulo" id="ant-conpesa">Antebrazo</h1>
           <div class="card-container">
-            <div class="card card-gifs" style="width: 45rem;">
+            <div class="card card-gifs doble">
               <h5 class="card-title mx-auto mt-2">Curl de antebrazos con barras</h5>
               <img src="../media/ejercicios con pesas gif/antebrazo/curl de antebrazos con barras.gif" class="card-img-top" alt="...">
               <div class="card-body">
@@ -86,7 +86,7 @@
                   Levante las manos al flexionar las muñecas creando tensión en los antebrazos. </p>
               </div>
             </div>
-            <div class="card card-gifs" style="width: 45rem;">
+            <div class="card card-gifs doble">
               <h5 class="card-title mx-auto mt-2">Curl de antebrazos con mancuerna</h5>
               <img src="../media/ejercicios con pesas gif/antebrazo/curl de antebrazos con mancuerna.gif" class="card-img-top" alt="...">
               <div class="card-body">
@@ -98,7 +98,7 @@
           </div>
           <h1 class="display-1 mx-auto titulo" id="bicep-conpesa">Biceps</h1>
           <div class="card-container">
-              <div class="card card-gifs" style="width: 30rem;">
+              <div class="card card-gifs doble">
                 <h5 class="card-title mx-auto mt-2">Curl de biceps con barra</h5>
                 <img src="../media/ejercicios con pesas gif/biceps/curl de biceps en barra.gif" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -106,7 +106,7 @@
                     Sin mover el brazo, flexione el codo y lleve la barra tan cerca de los hombros como le sea posible. Haga una pausa y luego baje la barra hasta su posición inicial.</p>
                 </div>
               </div>
-            <div class="card card-gifs" style="width: 30rem;">
+            <div class="card card-gifs doble">
               <h5 class="card-title mx-auto mt-2">Curl de biceps martillo con mancuerna</h5>
               <img src="../media/ejercicios con pesas gif/biceps/curl de biceps con mancuerna.gif" class="card-img-top" alt="...">
               <div class="card-body">
@@ -114,7 +114,9 @@
                   simultánea o alternando los brazos, siempre respirando al final de cada movimiento.</p>
               </div>
             </div>
-            <div class="card card-gifs" style="width: 30rem;">
+          </div>
+          <div class="card-container">
+            <div class="card card-gifs mt-5 simple">
               <h5 class="card-title mx-auto mt-2">Curl de biceps en banco inclinado</h5>
               <img src="../media/ejercicios con pesas gif/biceps/curl de biceps en banco inclinado.gif" class="card-img-top" alt="...">
               <div class="card-body">
@@ -128,7 +130,7 @@
           </div>
           <h1 class="display-1 mx-auto titulo" id="espalda-conpesa">Espalda</h1>
           <div class="card-container">
-            <div class="card card-gifs" style="width: 30rem;">
+            <div class="card card-gifs doble">
               <h5 class="card-title mx-auto mt-2">Dominadas</h5>
               <img src="../media/ejercicios con pesas gif/espalda/dominadas.gif" class="card-img-top" alt="...">
               <div class="card-body">
@@ -136,7 +138,7 @@
                   Ejecuta la tracción del cuerpo entero flexionando los brazos y contrayendo los músculos de la espalda sin tensionar el cuello.</p>
               </div>
             </div>
-            <div class="card card-gifs" style="width: 30rem;">
+            <div class="card card-gifs doble">
               <h5 class="card-title mx-auto mt-2">Remo con mancuernas</h5>
               <img src="../media/ejercicios con pesas gif/espalda/remo con mancuernas.gif" class="card-img-top" alt="...">
               <div class="card-body">
@@ -145,7 +147,9 @@
                    Deje que las mancuernas cuelguen enfrente de su cuerpo con los brazos totalmente extendidos.</p>
               </div>
             </div>
-            <div class="card card-gifs" style="width: 30rem;">
+          </div>
+          <div class="card-container">
+            <div class="card card-gifs mt-5 simple">
               <h5 class="card-title mx-auto mt-2">Remo tres apoyo</h5>
               <img src="../media/ejercicios con pesas gif/espalda/remo tres apoyo.gif" class="card-img-top" alt="...">
               <div class="card-body">
@@ -158,7 +162,7 @@
           </div>
           <h1 class="display-1 mx-auto titulo" id="hombro-conpesa">Hombros</h1>
           <div class="card-container">
-            <div class="card card-gifs" style="width: 30rem;">
+            <div class="card card-gifs doble">
               <h5 class="card-title mx-auto mt-2">Elevaciones frontales con mancuerna</h5>
               <img src="../media/ejercicios con pesas gif/hombros/elevaciones frontales con mancuernas.gif" class="card-img-top" alt="...">
               <div class="card-body">
@@ -169,7 +173,7 @@
                    lentamente a la posición inicial al levantar al mismo tiempo la mancuerna derecha.</p>
               </div>
             </div>
-            <div class="card card-gifs" style="width: 30rem;">
+            <div class="card card-gifs doble">
               <h5 class="card-title mx-auto mt-2">Elevaciones laterales con mancuerna</h5>
               <img src="../media/ejercicios con pesas gif/hombros/elevaciones laterales con mancuernas.gif" class="card-img-top" alt="...">
               <div class="card-body">
@@ -178,7 +182,9 @@
                   Haz una pausa y luego baja las pesas a la posición inicial.</p>
               </div>
             </div>
-            <div class="card card-gifs" style="width: 30rem;">
+          </div>
+          <div class="card-container">
+            <div class="card card-gifs mt-5 simple">
               <h5 class="card-title mx-auto mt-2">Press de hombro con barras</h5>
               <img src="../media/ejercicios con pesas gif/hombros/press de hombros con barra.gif" class="card-img-top" alt="...">
               <div class="card-body">
@@ -191,7 +197,7 @@
           </div>
           <h1 class="display-1 mx-auto titulo" id="pect-conpesa">Pectorales</h1>
           <div class="card-container">
-            <div class="card card-gifs" style="width: 30rem;">
+            <div class="card card-gifs doble">
               <h5 class="card-title mx-auto mt-2">Apertura de pecho en banco</h5>
               <img src="../media/ejercicios con pesas gif/pectoral/apertura de pecho en banco.gif" class="card-img-top" alt="...">
               <div class="card-body">
@@ -199,7 +205,7 @@
                   brazos hacia arriba, al mismo tiempo que soltamos el aire. Vuelve controladamente a la posición inicial. </p>
               </div>
             </div>
-            <div class="card card-gifs" style="width: 30rem;">
+            <div class="card card-gifs doble">
               <h5 class="card-title mx-auto mt-2">Press de banca con barra</h5>
               <img src="../media/ejercicios con pesas gif/pectoral/press de banca con barra.gif" class="card-img-top" alt="...">
               <div class="card-body">
@@ -209,7 +215,9 @@
                   con el cuerpo en la posición inferior. Haz una pausa y luego levanta la barra en línea recta hasta la posición inicial.</p>
               </div>
             </div>
-            <div class="card card-gifs" style="width: 30rem;">
+          </div>
+          <div class="card-container">
+            <div class="card card-gifs mt-5 simple">
               <h5 class="card-title mx-auto mt-2">Press de banca inclinado</h5>
               <img src="../media/ejercicios con pesas gif/pectoral/press de banca inclinado.gif" class="card-img-top" alt="...">
               <div class="card-body">
@@ -223,7 +231,7 @@
           <div class="card-container">
             </div>
               <div class="card-container">
-                <div class="card card-gifs" style="width: 45rem">
+                <div class="card card-gifs doble">
                   <h5 class="card-title mx-auto mt-2">Sentadilla con barra</h5>
                   <img src="../media/ejercicios con pesas gif/piernas/sentadilla con barra.gif" class="card-img-top" alt="...">
                   <div class="card-body">
@@ -236,7 +244,7 @@
                       </p>
                   </div>
                 </div>
-                <div class="card card-gifs" style="width: 45rem">
+                <div class="card card-gifs doble">
                   <h5 class="card-title mx-auto mt-2">Peso muerto con barra</h5>
                   <img src="../media/ejercicios con pesas gif/piernas/peso muerto con barra.gif" class="card-img-top" alt="...">
                   <div class="card-body">
@@ -249,7 +257,7 @@
                 </div>
               </div>
               <div class="card-container">
-                <div class="card card-gifs mt-5" style="width: 45rem">
+                <div class="card card-gifs mt-5 doble">
                   <h5 class="card-title mx-auto mt-2">Sentadillas con mancuerna a una pierna</h5>
                   <img src="../media/ejercicios con pesas gif/piernas/sentadillas con mancuerna a una pierna.gif" class="card-img-top" alt="...">
                   <div class="card-body">
@@ -258,7 +266,7 @@
                       flexionada. Realice una sentadilla y lleve la rodilla de atrás hacia el piso. </p>
                   </div>
                 </div>
-                <div class="card card-gifs mt-5" style="width: 45rem">
+                <div class="card card-gifs mt-5 doble">
                   <h5 class="card-title mx-auto mt-2">Sentadillas búlgaras con barras</h5>
                   <img src="../media/ejercicios con pesas gif/piernas/sentadillas bulgaras con barra.gif" class="card-img-top" alt="...">
                   <div class="card-body">
@@ -272,7 +280,7 @@
               </div>
               <h1 class="display-1 mx-auto titulo" id="trap-conpesa">Trapecios</h1>
               <div class="card-container">
-                <div class="card card-gifs" style="width: 50rem;">
+                <div class="card card-gifs simple" style="width: 50rem;">
                   <h5 class="card-title mx-auto mt-2">Remo al mentón con barra</h5>
                   <img src="../media/ejercicios con pesas gif/trapecio/remo al menton con barra.gif" class="card-img-top" alt="...">
                   <div class="card-body">
@@ -283,7 +291,7 @@
                 </div>
               </div>
               <div class="card-container">
-                <div class="card card-gifs mt-5" style="width: 50rem;">
+                <div class="card card-gifs mt-5 simple" style="width: 50rem;">
                   <h5 class="card-title mx-auto mt-2">Encogimiento de hombros con mancuernas</h5>
                   <img src="../media/ejercicios con pesas gif/trapecio/encogimiento de homrbos con mancuernas.gif" class="card-img-top" alt="...">
                   <div class="card-body">
@@ -295,7 +303,7 @@
               </div>
               <h1 class="display-1 mx-auto titulo" id="tric-conpesa">Triceps</h1>
               <div class="card-container">
-                <div class="card card-gifs" style="width: 45rem;">
+                <div class="card card-gifs doble">
                   <h5 class="card-title mx-auto mt-2">Extensiones de triceps acostado</h5>
                   <img src="../media/ejercicios con pesas gif/triceps/extensiones de triceps acostado.gif" class="card-img-top" alt="...">
                   <div class="card-body">
@@ -305,7 +313,7 @@
                        durante todo el movimiento.</p>
                   </div>
                 </div>
-                <div class="card card-gifs" style="width: 45rem;">
+                <div class="card card-gifs doble">
                   <h5 class="card-title mx-auto mt-2">Patada de burro de tríceps</h5>
                   <img src="../media/ejercicios con pesas gif/triceps/patada de burro de triceps.gif" class="card-img-top" alt="...">
                   <div class="card-body">
@@ -317,7 +325,7 @@
                 </div>
               </div>
               <div class="card-container">
-                <div class="card card-gifs mt-5" style="width: 60rem;">
+                <div class="card card-gifs mt-5 simple">
                   <h5 class="card-title mx-auto mt-2">Extensiones de triceps sentado</h5>
                   <img src="../media/ejercicios con pesas gif/triceps/extensiones de triceps sentado.gif" class="card-img-top" alt="...">
                   <div class="card-body">

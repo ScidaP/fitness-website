@@ -1,1 +1,1 @@
-<p><a href="#cielo" id="boton-cielo" class="mr-5">Ir a cielo</a></p>
+<p><a href="#cielo" class="boton-cielo" class="mr-5">Ir a cielo</a></p>

@@ -18,7 +18,7 @@ $result = "";
       $port = "587";
       $SMTPAuth = "login";
       $SMTPSecure = "tls";
-      $password = "octavioberarducci23";
+      $password = 'f$DjhHki38$12n*mKcv$$123p*LmB)';
       $emailTo = "webbefitness@gmail.com";
   
       $mail->isSMTP();
@@ -42,9 +42,11 @@ $result = "";
   
   
       if (!$mail->send()) {
-        $result = "Algo no funcionó. Intenta nuevamente.";
+        $result = "<h1 class=\"display-1 mx-auto titulo\" style=\"font-size: 4em; text-shadow: none; color: black;\">Algo se perdió...</h1>
+        <h5 class=\"text-center text-fail\">No se pudo enviar el mail. Intenta de nuevo más tarde.</h5>";
       } else {
-        $result = "Gracias $name, nos contactaremos contigo a la brevedad.";
+        $result = "<h1 class=\"display-1 mx-auto titulo\" style=\"font-size: 4em; text-shadow: none; color: black;\">¡Recibido!</h1>
+        <h5 class=\"text-center text-success\">Gracias $name, nos contactaremos contigo a la brevedad.</h5>";
       }
     }
 ?>
@@ -99,8 +101,7 @@ $result = "";
         </div>
       </nav>
       <main class="main">
-        <h1 class="display-1 mx-auto titulo" style="font-size: 4em; text-shadow: none; color: black;">¡Recibido!</h1>
-        <h5 class="text-center text-success"><?= $result;?></h5>
+        <?= $result;?>
         <br>
         <h1 class="display-1 mx-auto titulo" style="text-shadow: none; color: black;">Seguí navegado</h1>
         <img src="../img/wave5.png">

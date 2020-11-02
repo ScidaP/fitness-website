@@ -99,6 +99,15 @@ blockquote p {
     justify-content: space-around;
 }
 
+
+.doble {
+    width: 47%;
+}
+
+.simple {
+    width: 70%;
+}
+
 .card {
     box-shadow: 0px 0px 10px black;
 }
@@ -229,6 +238,11 @@ textarea {
     font-size: 1.8em;
 }
 
+.text-fail {
+    color: red;
+    font-size: 1.8em;
+}
+
 .valid {
     border: 0.12em solid green;
     border-radius: .25rem;
@@ -322,10 +336,20 @@ footer {
     margin: 0 auto;
 }
 
-.footer-img-container {
+.footer-logo-img {
+    height: 120px;
+    width: 120px;
+}
+
+.footer-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.needhelp {
+    height: 600px;
+    width: 324px;
 }
 
 .container-marca {
@@ -335,6 +359,86 @@ footer {
 
 /* FIN FOOTER */
 
-#boton-cielo {
+.boton-cielo {
     float: right;
+    margin-right: 3%;
+}
+
+/* ****************** RESPONSIVE CSS ****************** */
+
+@media screen and (max-width: 991px) {
+    /* GLOBAL */
+
+    .main {
+        width: 100%;
+    }
+    
+    /* HOME */
+    .carousel-item {
+        height: 100% !important;
+    }
+
+    /* EJER CON PESA */
+
+    .main-ejerconpesa {
+        width: 100%;
+    }
+
+    .container-aside {
+        display: none;
+    }
+    .main-ejerconpesa, .main-ejersinpesa {
+        margin-top: 0;
+    }
+
+    .doble {
+        width: 45%;
+    }
+
+    .simple {
+        width: 60%;
+    }
+
+    /* CIELO */
+
+    .boton-cielo {
+        position: absolute;
+        right: 1%;
+    }
+
+    .boton-cielo:hover {
+        text-decoration: none;
+    }
+
+    /* FOOTER */
+
+    footer {
+        width: 100%;
+    }
+
+    .needhelp {
+        height: 380px;
+        width: 205.2px;
+    }
+    
+    .footer-texthelp {
+        font-size: 1em;
+    }
+
+    .footer-logo-img {
+        width: 85px;
+        height: 85px;
+    }
+
+    .footer-text {
+        font-size: 1.2em;
+    }
+
+    .center-footer-container {
+        font-size: 0.9em;
+    }
+
+    .container-needhelp {
+        margin-top: 2%;
+    }
 }
