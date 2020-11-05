@@ -12,9 +12,9 @@
 </head>
 <body>
   <header class="header">
-
+  <h2 class="header-title">Contáctanos</h2>
   </header>
-  <?php include '../php/nav.php'?>
+  <?php include '../sent/nav.php'?>
       <main class="main main-contactanos">
         <h1 class="display-1 mx-auto titulo" style="font-size: 4em; text-shadow: none; color: black;">Mándanos un mensaje</h1>
         <h5 class="text-center text-success"></h5>
@@ -50,7 +50,7 @@
         </form>
         <img src="../img/wave5.png" class="ola">
       </main>
-      <?php include '../php/footer.php'?>
+      <?php include '../sent/footer.php'?>
 </body>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

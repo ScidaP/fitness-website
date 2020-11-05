@@ -11,11 +11,12 @@ cambiarFondo();
 var images = ['A1.jpg', 'A2.jpg', 'A3.jpg', 'A4.jpg', 'A5.jpg', 'A6.jpg', 'A7.jpg', 'A8.jpg', 'A9.jpg', 'A10.jpg', 'A11.jpg', 'A12.jpg', 'A13.jpg', 'A14.jpg', 'A15.jpg'];
 
 if ((window.location.toString().match("musica")) || (window.location.toString().match("cardio")) || (window.location.toString().match("nutricion"))
-|| (window.location.toString().match("ejer_conpesa")) || (window.location.toString().match("ejer_sinpesa"))) {
+|| (window.location.toString().match("ejer_conpesa")) || (window.location.toString().match("ejer_sinpesa")) || (window.location.toString().match("enviado"))) {
     var $mainMusica = document.getElementsByClassName("main-musica");
     var $mainConPesa = document.getElementsByClassName("main-ejerconpesa");
     var $mainSinPesa = document.getElementsByClassName("main-ejersinpesa");
     var $parallax = document.getElementsByClassName("parallax");
+    var $cardEnviado = document.getElementsByClassName("card-seguinavegando");
 
     if (window.location.toString().match("musica")) {
         cambiarBg($mainMusica);
@@ -23,6 +24,14 @@ if ((window.location.toString().match("musica")) || (window.location.toString().
         cambiarBg($mainSinPesa);
     } else if (window.location.toString().match("ejer_conpesa")) {
         cambiarBg($mainConPesa);
+    } else if (window.location.toString().match("enviado")) {
+        cambiarBg($cardEnviado[0]);
+        cambiarBg($cardEnviado[1]);
+        cambiarBg($cardEnviado[2]);
+        cambiarBg($cardEnviado[3]);
+        cambiarBg($cardEnviado[4]);
+        cambiarBg($cardEnviado[5]);
+        cambiarBg($cardEnviado[6]);
     } else {
         cambiarBg($parallax);
     }
@@ -88,3 +97,7 @@ if (window.location.toString().match("cardio") || window.location.toString().mat
 }
 
 $('img').attr('draggable', false); // Las imágenes no se pueden arrastrar.
+
+function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}

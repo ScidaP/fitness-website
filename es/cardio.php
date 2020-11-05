@@ -12,9 +12,9 @@
 </head>
 <body>
   <header class="header" id="cielo">
-
+    <h2 class="header-title">Cardio</h2>
   </header>
-  <?php include '../php/nav.php'?>
+  <?php include '../sent/nav.php'?>
       <main class="main main-cardio">
         <div class="jumbotron mt-4 ml-4 mr-4">
           <h1 class="display-4">Tenés que hacer cardio</h1>
@@ -78,8 +78,8 @@
         </div>
         <img src="../img/wave5.png" class="ola">
       </main>
-      <?php include '../php/cielo.php' ?>
-      <?php include '../php/footer.php'?>
+      <?php include '../sent/cielo.php' ?>
+      <?php include '../sent/footer.php'?>
 </body>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

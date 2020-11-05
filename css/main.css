@@ -22,6 +22,17 @@ html {
     background-size: cover;
 }
 
+.header-title {
+    position: relative;
+    top: 50%;
+    color: white;
+    text-shadow: 0px 0px 2px black;
+    font-size: 3.8em;
+    padding-left: 10%;
+    background-color: black;
+    width: 50%;
+}
+
 /* ------ NAV ------ */
 
 .navbar {
@@ -30,8 +41,8 @@ html {
 }
 
 .logo-web {
-    width: 50px;
-    height: 50px;
+    width: 140px;
+    height: 47px;
 }
 
 .nav-link {
@@ -364,7 +375,26 @@ footer {
     margin-right: 3%;
 }
 
+/* Enviado */
+
+.container-seguinavegando {
+    width: 90%;
+    color: white;
+    text-shadow: 0px 0px 2px black;
+}
+
+.card-seguinavegando {
+    background-size: cover;
+}
+
+.card-enviado {
+    margin-bottom: 2em;
+}
+
 /* ****************** RESPONSIVE CSS ****************** */
+/******************/
+/*      IPAD      */
+/*****************/
 
 @media screen and (max-width: 991px) {
     /* GLOBAL */
@@ -387,6 +417,7 @@ footer {
     .container-aside {
         display: none;
     }
+
     .main-ejerconpesa, .main-ejersinpesa {
         margin-top: 0;
     }
@@ -440,5 +471,52 @@ footer {
 
     .container-needhelp {
         margin-top: 2%;
+    }
+}
+
+/******************/
+/*   CELULARES    */
+/*****************/
+
+@media screen and (max-width: 767px) {
+    /* Header */
+
+    .header-title {
+        font-size: 2em;
+        width: 70%;
+    }
+
+    /* Ejercicios con y sin pesas */
+    .card-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .simple, .doble {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .doble {
+        margin-bottom: 3em;
+    }
+
+    .titulo-gifs {
+        font-size: 3em;
+    }
+
+    /* Footer */
+
+    .footer-container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .container-needhelp {
+        margin: 1em auto;
+    }
+
+    .container-marca {
+        margin: 0 auto;
     }
 }

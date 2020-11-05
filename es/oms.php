@@ -12,9 +12,9 @@
 </head>
 <body>
   <header class="header" id="cielo">
-
+    <h2 class="header-title">OMS</h2>
   </header>
-  <?php include '../php/nav.php'?>
+  <?php include '../sent/nav.php'?>
       <main class="main">
         <img src="../img/omslogo.png" id="oms-logo" class="img-fluid mx-auto">
         <h1 class="titulo mx-auto" style="color: black; text-shadow: none;">¿Qué es la actividad física?</h1>
@@ -76,8 +76,8 @@
         <h3 class="w-75 mx-auto mt-3">La insuficiente actividad física, que es uno de los factores de riesgo de mortalidad más importantes a escala mundial, va en aumento en muchos países, lo que agrava la carga de enfermedades no transmisibles y afecta al estado general de salud de la población en todo el planeta. Las personas que no hacen suficiente ejercicio físico presentan un riesgo de mortalidad entre un <b>20% y un 30%</b> superior al de aquellas que son lo suficientemente activas.</h3>
         <img src="../img/wave5.png" class="ola">
       </main>
-      <?php include '../php/cielo.php' ?>
-      <?php include '../php/footer.php' ?>
+      <?php include '../sent/cielo.php' ?>
+      <?php include '../sent/footer.php' ?>
 </body>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

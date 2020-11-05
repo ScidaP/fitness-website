@@ -1,1 +1,0 @@
-<p><a href="#cielo" class="boton-cielo" class="mr-5">Ir a cielo</a></p>

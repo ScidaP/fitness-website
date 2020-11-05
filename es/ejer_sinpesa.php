@@ -12,9 +12,9 @@
 </head>
 <body>
   <header class="header" id="cielo">
-
+    <h2 class="header-title">Ejercicios sin pesas</h2>
   </header>
-  <?php include '../php/nav.php'?>
+  <?php include '../sent/nav.php'?>
       <div class="main-container">
         <ul class="container-aside navbar-nav">
           <li class="nav-item">
@@ -46,9 +46,9 @@
           </li>
         </ul>
         <main class="main main-ejersinpesa">
-          <h1 class="display-1 mx-auto titulo" id="abd-sinpesa">Abdominales</h1>
+          <h1 class="display-1 mx-auto titulo titulo-gifs" id="abd-sinpesa">Abdominales</h1>
           <div class="card-container">
-            <div class="card card-gifs mb-3" style="width: 30rem;">
+            <div class="card card-gifs mb-3 doble">
               <h5 class="card-title mx-auto mt-2">Bicicleta</h5>
               <img src="../media/ejercicios sin pesas gif/abdominales/bicicleta.gif" class="card-img-top" alt="...">
               <div class="card-body">
@@ -56,14 +56,16 @@
                   vuelve a la posición inicial y repite el movimiento a la inversa.</p>
               </div>
             </div>
-            <div class="card card-gifs mb-3" style="width: 30rem;">
+            <div class="card card-gifs mb-3 doble">
               <h5 class="card-title mx-auto mt-2">Crunch con piernas elevadas</h5>
               <img src="../media/ejercicios sin pesas gif/abdominales/crunch com piernas elevadas.gif" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text">Con las piernas elevadas aproximadamente a 90º, intenta tocar la punta de los pies con las manos.</p>
               </div>
             </div>
-            <div class="card card-gifs mb-3" style="width: 30rem;">
+          </div>
+          <div class="card-container">
+          <div class="card card-gifs mb-3 simple">
               <h5 class="card-title mx-auto mt-2">Plancha</h5>
               <img src="../media/ejercicios sin pesas gif/abdominales/plancha.gif" class="card-img-top" alt="...">
               <div class="card-body">
@@ -73,7 +75,7 @@
             </div>
           </div>
           <div class="card-container">
-            <div class="card card-gifs mb-3" style="width: 45rem;">
+            <div class="card card-gifs mb-3 doble">
               <h5 class="card-title mx-auto mt-2">Elevación de piernas</h5>
               <img src="../media/ejercicios sin pesas gif/abdominales/elevacion de piernas.gif" class="card-img-top" alt="...">
               <div class="card-body">
@@ -82,7 +84,7 @@
                   dependiendo de tu nivel, puedes tocar o no en el suelo.</p>
               </div>
             </div>
-            <div class="card card-gifs mb-3" style="width: 45rem;">
+            <div class="card card-gifs mb-3 doble">
               <h5 class="card-title mx-auto mt-2">Flexión de piernas</h5>
               <img src="../media/ejercicios sin pesas gif/abdominales/flexion de piernas.gif" class="card-img-top" alt="...">
               <div class="card-body">
@@ -92,7 +94,7 @@
             </div>
           </div>
           <div class="card-container">
-            <div class="card card-gifs mt-3" style="width: 45rem;">
+            <div class="card card-gifs mt-3 doble">
               <h5 class="card-title mx-auto mt-2">Sit up</h5>
               <img src="../media/ejercicios sin pesas gif/abdominales/sit up.gif" class="card-img-top" alt="...">
               <div class="card-body">
@@ -100,7 +102,7 @@
                    hay que levantarse hasta llegar a los 90º con las piernas, la posición de los brazos es libre.</p>
               </div>
             </div>
-            <div class="card card-gifs mt-3" style="width: 45rem;">
+            <div class="card card-gifs mt-3 doble">
               <h5 class="card-title mx-auto mt-2">Toques al talón</h5>
               <img src="../media/ejercicios sin pesas gif/abdominales/toques al talon.gif" class="card-img-top" alt="...">
               <div class="card-body">
@@ -110,9 +112,9 @@
               </div>
             </div>
           </div>
-          <h1 class="display-1 mx-auto titulo" id="ant-sinpesa">Antebrazos</h1>
+          <h1 class="display-1 mx-auto titulo titulo-gifs" id="ant-sinpesa">Antebrazos</h1>
           <div class="card-container">
-            <div class="card card-gifs" style="width: 60rem;">
+            <div class="card card-gifs simple">
               <h5 class="card-title mx-auto mt-2">Levantamiento de silla</h5>
               <img src="../media/ejercicios sin pesas gif/antebrazos/levantamiento de sillas.gif" class="card-img-top" alt="...">
               <div class="card-body">
@@ -124,9 +126,9 @@
             </div>
           </div>
           <div class="card-container">
-            <div class="card card-gifs mt-5" style="width: 60rem;">
+            <div class="card card-gifs mt-5 simple">
               <h5 class="card-title mx-auto mt-2">Rollos con los dedos con peso corporal</h5>
-              <img src="../media/ejercicios sin pesas gif/abdominales/toques al talon.gif" class="card-img-top" alt="...">
+              <img src="../media/ejercicios sin pesas gif/antebrazos/rollos con los dedos peso corporal.gif" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text">Para este ejercicio podemos usar varios implementos comunes en casa como un palo de escoba y un par de sillas. Lo que harás será poner el palo
                    de escoba sobre las dos sillas, de forma que puedas tomar el palo por la mitad como si fueras a hacer dominadas australianas. Lo que harás será tomar el palo 
@@ -135,9 +137,9 @@
               </div>
             </div>
           </div>
-          <h1 class="display-1 mx-auto titulo" id="bicep-sinpesa">Biceps</h1>
+          <h1 class="display-1 mx-auto titulo titulo-gifs" id="bicep-sinpesa">Biceps</h1>
           <div class="card-container">
-            <div class="card card-gifs" style="width: 60rem;">
+            <div class="card card-gifs simple">
               <h5 class="card-title mx-auto mt-2">Curl de Biceps</h5>
               <img src="../media/ejercicios sin pesas gif/biceps sin pesas/curl de biceps .gif" class="card-img-top" alt="...">
               <div class="card-body">
@@ -147,7 +149,7 @@
             </div>
           </div>
           <div class="card-container">
-            <div class="card card-gifs mt-5" style="width: 60rem;">
+            <div class="card card-gifs mt-5 simple">
               <h5 class="card-title mx-auto mt-2">Curl de biceps martillo</h5>
               <img src="../media/ejercicios sin pesas gif/biceps sin pesas/curl de biceps martillo.gif" class="card-img-top" alt="...">
               <div class="card-body">
@@ -155,16 +157,16 @@
               </div>
             </div>
           </div>
-          <h1 class="display-1 mx-auto titulo" id="espalda-sinpesa">Espalda</h1>
+          <h1 class="display-1 mx-auto titulo titulo-gifs" id="espalda-sinpesa">Espalda</h1>
           <div class="card-container">
-            <div class="card card-gifs mb-3" style="width: 45rem;">
+            <div class="card card-gifs mb-3 doble">
               <h5 class="card-title mx-auto mt-2">Superman</h5>
               <img src="../media/ejercicios sin pesas gif/espalda/superman.gif" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text">Es un ejercicio básico que consiste en tumbarse boca abajo y elevar al mismo tiempo brazos y piernas. </p>
               </div>
             </div>
-            <div class="card card-gifs mb-3" style="width: 45rem;">
+            <div class="card card-gifs mb-3 doble">
               <h5 class="card-title mx-auto mt-2">Breaststroke</h5>
               <img src="../media/ejercicios sin pesas gif/espalda/breaststroke .gif" class="card-img-top" alt="...">
               <div class="card-body">
@@ -172,9 +174,9 @@
               </div>
             </div>
           </div>
-          <h1 class="display-1 mx-auto titulo" id="hombro-sinpesa">Hombros</h1>
+          <h1 class="display-1 mx-auto titulo titulo-gifs" id="hombro-sinpesa">Hombros</h1>
           <div class="card-container">
-            <div class="card card-gifs mb-3" style="width: 60rem;">
+            <div class="card card-gifs mb-3 simple">
               <h5 class="card-title mx-auto mt-2">Flexiones en pico elevadas.</h5>
               <img src="../media/ejercicios sin pesas gif/hombros/flexiones en pico elevadas.gif" class="card-img-top" alt="...">
               <div class="card-body">
@@ -184,7 +186,7 @@
             </div>
           </div>
           <div class="card-container">
-            <div class="card card-gifs mt-5" style="width: 60rem;">
+            <div class="card card-gifs mt-5 simple">
               <h5 class="card-title mx-auto mt-2">Flexiones verticales invertidas</h5>
               <img src="../media/ejercicios sin pesas gif/hombros/flexiones verticales invertidas.gif" class="card-img-top" alt="...">
               <div class="card-body">
@@ -196,9 +198,9 @@
               </div>
             </div>
           </div>
-          <h1 class="display-1 mx-auto titulo" id="pect-sinpesa">Pectorales</h1>
+          <h1 class="display-1 mx-auto titulo titulo-gifs" id="pect-sinpesa">Pectorales</h1>
           <div class="card-container">
-            <div class="card card-gifs mb-3" style="width: 45rem;">
+            <div class="card card-gifs mb-3 doble">
               <h5 class="card-title mx-auto mt-2">Pushups con pelota.</h5>
               <img src="../media/ejercicios sin pesas gif/pectoral/push-ups con pelota.gif" class="card-img-top" alt="...">
               <div class="card-body">
@@ -207,7 +209,7 @@
                   impúlsese para volver a la posición inicial. Cambie la pelota de mano antes de repetir el movimiento.</p>
               </div>
             </div>
-            <div class="card card-gifs mb-3" style="width: 45rem;">
+            <div class="card card-gifs mb-3 doble">
               <h5 class="card-title mx-auto mt-2">Pushups.</h5>
               <img src="../media/ejercicios sin pesas gif/pectoral/push-ups.gif" class="card-img-top" alt="...">
               <div class="card-body">
@@ -218,9 +220,9 @@
               </div>
             </div>
           </div>
-          <h1 class="display-1 mx-auto titulo" id="pierna-sinpesa">Piernas</h1>
+          <h1 class="display-1 mx-auto titulo titulo-gifs" id="pierna-sinpesa">Piernas</h1>
           <div class="card-container">
-            <div class="card card-gifs mb-3" style="width: 45rem;">
+            <div class="card card-gifs mb-3 doble">
               <h5 class="card-title mx-auto mt-2">Sentadillas con salto.</h5>
               <img src="../media/ejercicios sin pesas gif/piernas/sentadillas con salto.gif" class="card-img-top" alt="...">
               <div class="card-body">
@@ -230,7 +232,7 @@
                   complicado, comienza primero sin la mochila. </p>
               </div>
             </div>
-            <div class="card card-gifs mb-3" style="width: 45rem;">
+            <div class="card card-gifs mb-3 doble">
               <h5 class="card-title mx-auto mt-2">Sentadillas búlgaras con peso</h5>
               <img src="../media/ejercicios sin pesas gif/piernas/sentadilla bulgaras con peso.gif" class="card-img-top" alt="...">
               <div class="card-body">
@@ -243,7 +245,7 @@
             </div>
           </div>
           <div class="card-container">
-            <div class="card card-gifs mt-5" style="width: 60rem;">
+            <div class="card card-gifs mt-5 simple">
               <h5 class="card-title mx-auto mt-2">Pantorrillas.</h5>
               <img src="../media/ejercicios sin pesas gif/piernas/pantorrillas.gif" class="card-img-top" alt="...">
               <div class="card-body">
@@ -253,9 +255,9 @@
               </div>
             </div>
           </div>
-          <h1 class="display-1 mx-auto titulo" id="trap-sinpesa">Trapecios</h1>
+          <h1 class="display-1 mx-auto titulo titulo-gifs" id="trap-sinpesa">Trapecios</h1>
           <div class="card-container">
-            <div class="card card-gifs mt-5" style="width: 60rem;">
+            <div class="card card-gifs mt-5 simple">
               <h5 class="card-title mx-auto mt-2">Encogimiento de hombros.</h5>
               <img src="../media/ejercicios sin pesas gif/trapecios/encogimiento de hombros.gif" class="card-img-top" alt="...">
               <div class="card-body">
@@ -266,7 +268,7 @@
             </div>  
           </div>
           <div class="card-container">
-            <div class="card card-gifs mt-5" style="width: 60rem;">
+            <div class="card card-gifs mt-5 simple">
               <h5 class="card-title mx-auto mt-2">Fila vertical.</h5>
               <img src="../media/ejercicios sin pesas gif/trapecios/fila vertical.gif" class="card-img-top" alt="...">
               <div class="card-body">
@@ -276,9 +278,9 @@
               </div>
             </div>
           </div>
-          <h1 class="display-1 mx-auto titulo" id="tric-sinpesa">Triceps</h1>
+          <h1 class="display-1 mx-auto titulo titulo-gifs" id="tric-sinpesa">Triceps</h1>
           <div class="card-container">
-            <div class="card card-gifs mb-3" style="width: 45rem;">
+            <div class="card card-gifs mb-3 doble">
               <h5 class="card-title mx-auto mt-2">Flexiones de triceps diamante</h5>
               <img src="../media/ejercicios sin pesas gif/triceps/flexiones de triceps diamante.gif" class="card-img-top" alt="...">
               <div class="card-body">
@@ -287,7 +289,7 @@
                    abdomen para trabajar los abdominales interiores.</p>
               </div>
             </div>
-            <div class="card card-gifs mb-3" style="width: 45rem;">
+            <div class="card card-gifs mb-3 doble">
               <h5 class="card-title mx-auto mt-2">Fondo de triceps en silla</h5>
               <img src="../media/ejercicios sin pesas gif/triceps/fondo de triceps en silla.gif" class="card-img-top" alt="...">
               <div class="card-body">
@@ -301,8 +303,8 @@
           <img src="../img/wave5.png" class="ola">
         </main>
       </div>
-      <?php include '../php/cielo.php' ?>
-      <?php include '../php/footer.php'?>
+      <?php include '../sent/cielo.php' ?>
+      <?php include '../sent/footer.php'?>
 </body>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

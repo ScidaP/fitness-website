@@ -12,9 +12,9 @@
 </head>
 <body>
   <header class="header" id="cielo">
-
+    <h2 class="header-title">Ejercicios con pesas</h2>
   </header>
-  <?php include '../php/nav.php'?>
+  <?php include '../sent/nav.php'?>
       <div class="main-container">
         <ul class="container-aside navbar-nav">
           <li class="nav-item">
@@ -46,7 +46,7 @@
           </li>
         </ul>
         <main class="main main-ejerconpesa">
-          <h1 class="display-1 mx-auto titulo" id="abd-conpesa">Abdominales</h1>
+          <h1 class="display-1 mx-auto titulo titulo-gifs" id="abd-conpesa">Abdominales</h1>
           <div class="card-container">
             <div class="card card-gifs doble">
               <h5 class="card-title mx-auto mt-2">Antirotación con disco</h5>
@@ -76,7 +76,7 @@
               </div>
             </div>
           </div>
-          <h1 class="display-1 mx-auto titulo" id="ant-conpesa">Antebrazo</h1>
+          <h1 class="display-1 mx-auto titulo titulo-gifs" id="ant-conpesa">Antebrazo</h1>
           <div class="card-container">
             <div class="card card-gifs doble">
               <h5 class="card-title mx-auto mt-2">Curl de antebrazos con barras</h5>
@@ -96,7 +96,7 @@
               </div>
             </div>
           </div>
-          <h1 class="display-1 mx-auto titulo" id="bicep-conpesa">Biceps</h1>
+          <h1 class="display-1 mx-auto titulo titulo-gifs" id="bicep-conpesa">Biceps</h1>
           <div class="card-container">
               <div class="card card-gifs doble">
                 <h5 class="card-title mx-auto mt-2">Curl de biceps con barra</h5>
@@ -128,7 +128,7 @@
               </div>
             </div>
           </div>
-          <h1 class="display-1 mx-auto titulo" id="espalda-conpesa">Espalda</h1>
+          <h1 class="display-1 mx-auto titulo titulo-gifs" id="espalda-conpesa">Espalda</h1>
           <div class="card-container">
             <div class="card card-gifs doble">
               <h5 class="card-title mx-auto mt-2">Dominadas</h5>
@@ -160,7 +160,7 @@
               </div>
             </div>
           </div>
-          <h1 class="display-1 mx-auto titulo" id="hombro-conpesa">Hombros</h1>
+          <h1 class="display-1 mx-auto titulo titulo-gifs" id="hombro-conpesa">Hombros</h1>
           <div class="card-container">
             <div class="card card-gifs doble">
               <h5 class="card-title mx-auto mt-2">Elevaciones frontales con mancuerna</h5>
@@ -195,7 +195,7 @@
               </div>
             </div>
           </div>
-          <h1 class="display-1 mx-auto titulo" id="pect-conpesa">Pectorales</h1>
+          <h1 class="display-1 mx-auto titulo titulo-gifs" id="pect-conpesa">Pectorales</h1>
           <div class="card-container">
             <div class="card card-gifs doble">
               <h5 class="card-title mx-auto mt-2">Apertura de pecho en banco</h5>
@@ -227,7 +227,7 @@
               </div>
             </div>
           </div>
-          <h1 class="display-1 mx-auto titulo" id="pierna-conpesa">Piernas</h1>
+          <h1 class="display-1 mx-auto titulo titulo-gifs" id="pierna-conpesa">Piernas</h1>
           <div class="card-container">
             </div>
               <div class="card-container">
@@ -278,9 +278,9 @@
                   </div>
                 </div>
               </div>
-              <h1 class="display-1 mx-auto titulo" id="trap-conpesa">Trapecios</h1>
+              <h1 class="display-1 mx-auto titulo titulo-gifs" id="trap-conpesa">Trapecios</h1>
               <div class="card-container">
-                <div class="card card-gifs simple" style="width: 50rem;">
+                <div class="card card-gifs simple">
                   <h5 class="card-title mx-auto mt-2">Remo al mentón con barra</h5>
                   <img src="../media/ejercicios con pesas gif/trapecio/remo al menton con barra.gif" class="card-img-top" alt="...">
                   <div class="card-body">
@@ -291,7 +291,7 @@
                 </div>
               </div>
               <div class="card-container">
-                <div class="card card-gifs mt-5 simple" style="width: 50rem;">
+                <div class="card card-gifs mt-5 simple">
                   <h5 class="card-title mx-auto mt-2">Encogimiento de hombros con mancuernas</h5>
                   <img src="../media/ejercicios con pesas gif/trapecio/encogimiento de homrbos con mancuernas.gif" class="card-img-top" alt="...">
                   <div class="card-body">
@@ -301,7 +301,7 @@
                   </div>
                 </div>
               </div>
-              <h1 class="display-1 mx-auto titulo" id="tric-conpesa">Triceps</h1>
+              <h1 class="display-1 mx-auto titulo titulo-gifs" id="tric-conpesa">Triceps</h1>
               <div class="card-container">
                 <div class="card card-gifs doble">
                   <h5 class="card-title mx-auto mt-2">Extensiones de triceps acostado</h5>
@@ -339,9 +339,8 @@
               <img src="../img/wave5.png" class="ola">
         </main>
       </div>
-      <?php include '../php/cielo.php' ?>
-      <?php include '../php/footer.php'?>
-</body>
+      <?php include '../sent/cielo.php' ?>
+      <?php include '../sent/footer.php'?>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
