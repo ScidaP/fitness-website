@@ -17,15 +17,15 @@
   <?php include '../sent/nav.php'?>
       <main class="main">
         <img src="../img/omslogo.png" id="oms-logo" class="img-fluid mx-auto">
-        <h1 class="titulo mx-auto" style="color: black; text-shadow: none;">¿Qué es la actividad física?</h1>
+        <h1 class="titulo mx-auto oms-title" style="color: black; text-shadow: none;">¿Qué es la actividad física?</h1>
         <p class="w-75 mx-auto">La OMS define la actividad física como cualquier movimiento corporal producido por los músculos esqueléticos, con el consiguiente consumo de energía. Ello incluye las actividades realizadas al trabajar, jugar y viajar, las tareas domésticas y las actividades recreativas. <br><br>
           La expresión «actividad física» no se debería confundir con «ejercicio», que es una subcategoría de actividad física que se planea, está estructurada, es repetitiva y tiene como objetivo mejorar o mantener uno o más componentes del estado físico. La actividad física —tanto moderada como intensa— es beneficiosa para la salud.<br><br>
           Además del ejercicio, cualquier otra actividad física realizada en el tiempo de ocio, para desplazarse de un lugar a otro o como parte del trabajo, también es beneficiosa para la salud. La actividad física —tanto moderada como intensa— es beneficiosa para la salud.
           </p>
-        <h1 class="titulo mx-auto" style="color: black; text-shadow: none">¿Cuánta actividad física se recomienda?</h1>
+        <h1 class="titulo mx-auto oms-title" style="color: black; text-shadow: none">¿Cuánta actividad física se recomienda?</h1>
         <h3 class="mx-auto">Recomendaciones de la OMS:</h3>
         <div class="row ml-2 mr-2">
-          <div class="col-4">
+          <div class="col-4 botones-oms">
             <div class="list-group" id="list-tab" role="tablist">
               <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Para niños y adolescentes de 5 a 17 años de edad</a>
               <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Para adultos de 18 a 64 años de edad</a>
@@ -60,7 +60,7 @@
           </div>
         </div>
         <h3 class="mt-5 ml-4 mr-4">La intensidad con que se practican distintas formas de actividad física varía según las personas. Para que beneficie a la salud cardiorrespiratoria, toda actividad debe realizarse en periodos de al menos 10 minutos de duración.</h3>
-        <h1 class="titulo mx-5" style="color: black; text-shadow: none">Beneficios de la actividad física y riesgos de un nivel insuficiente de actividad física</h1>
+        <h1 class="titulo mx-5 oms-title" style="color: black; text-shadow: none">Beneficios de la actividad física y riesgos de un nivel insuficiente de actividad física</h1>
         <p class="w-75 mx-auto">La actividad física regular de intensidad moderada —como caminar, montar en bicicleta o hacer deporte— tiene considerables beneficios para la salud. En todas las edades, los beneficios de la actividad física contrarrestan los posibles daños provocados, por ejemplo, por accidentes. Realizar algún tipo de actividad física es mejor que no realizar ninguna. Volviéndonos más activos a lo largo del día de formas relativamente simples podemos alcanzar fácilmente los niveles recomendados de actividad física.</p>
         <h3 class="mx-5 my-5">La actividad física regular y en niveles adecuados:</h3>
         <ul class="list-group list-group-flush w-75 mx-auto">
@@ -73,7 +73,7 @@
         <div class="alert alert-danger mx-5 mt-5" role="alert">
           Cuidado con la falta de actividad física. Es más peligrosa de lo que crees.
         </div>
-        <h3 class="w-75 mx-auto mt-3">La insuficiente actividad física, que es uno de los factores de riesgo de mortalidad más importantes a escala mundial, va en aumento en muchos países, lo que agrava la carga de enfermedades no transmisibles y afecta al estado general de salud de la población en todo el planeta. Las personas que no hacen suficiente ejercicio físico presentan un riesgo de mortalidad entre un <b>20% y un 30%</b> superior al de aquellas que son lo suficientemente activas.</h3>
+        <h3 class="w-75 mx-auto mt-3 oms-advice">La insuficiente actividad física, que es uno de los factores de riesgo de mortalidad más importantes a escala mundial, va en aumento en muchos países, lo que agrava la carga de enfermedades no transmisibles y afecta al estado general de salud de la población en todo el planeta. Las personas que no hacen suficiente ejercicio físico presentan un riesgo de mortalidad entre un <b>20% y un 30%</b> superior al de aquellas que son lo suficientemente activas.</h3>
         <img src="../img/wave5.png" class="ola">
       </main>
       <?php include '../sent/cielo.php' ?>

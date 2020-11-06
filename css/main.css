@@ -236,6 +236,15 @@ blockquote p {
     cursor: pointer;
 }
 
+#regueton, #intenso {
+    margin-top: -55%;
+}
+
+.playlist {
+    width: 700px;
+    height: 580px;
+}
+
 /* FIN de MUSICA */
 
 /* Inicio de CONTACTANOS */
@@ -307,6 +316,10 @@ textarea {
     justify-content: space-around;
 }
 
+.figure-caption {
+    margin-left: 3rem;
+}
+
 /* FIN del Main de CARDIO */
 
 /* Inicio del Main de NUTRICION */
@@ -375,6 +388,10 @@ footer {
     margin-right: 3%;
 }
 
+#error_45feb3df2e8634d6e8862e5730fdfff85c1951dd {
+    display: none;
+}
+
 /* Enviado */
 
 .container-seguinavegando {
@@ -428,6 +445,27 @@ footer {
 
     .simple {
         width: 60%;
+    }
+
+    /* Cardio */
+
+    #cardio {
+        font-size: 3em;
+    }
+
+    .texto-cardio {
+        margin-left: 1em !important;
+    }
+
+    /* Musica */
+
+    .playlist {
+        width: 400px;
+        height: 410px;
+    }
+
+    .titulo-playlist {
+        font-size: 3.5em;
     }
 
     /* CIELO */
@@ -505,6 +543,63 @@ footer {
         font-size: 3em;
     }
 
+    /* Cardio */
+
+    .figure-caption {
+        width: 90% !important;
+        margin-bottom: 1em;
+    }
+
+    .gif-cardio {
+        width: 95% !important;
+    }
+
+    .container-cardio {
+        flex-direction: column;
+    }
+
+    #cardio {
+        font-size: 2.2em;
+    }
+
+    .texto-final-cardio {
+        color: black;
+        text-shadow: 0px 0px 1px white;
+    }
+
+    /* Nutricion */
+
+
+    .container-nutricion {
+        margin: 5% 5%;
+    }
+
+    .list-group-flush {
+        width: 90% !important;
+    }
+
+    /* Musica */
+
+    .playlist {
+        width: 100%;
+        height: 410px;
+    }
+
+    .fila-container {
+        flex-direction: column;
+    }
+
+    /* OMS */
+
+    .oms-title {
+        font-size: 2em;
+    }
+
+    .oms-advice {
+        font-size: 1.3em;
+        width: 92% !important;
+    }
+
     /* Footer */
 
     .footer-container {
@@ -518,5 +613,48 @@ footer {
 
     .container-marca {
         margin: 0 auto;
+    }
+}
+
+/******************/
+/* PANTALLAS NO HD*/
+/*****************/
+
+@media screen and (max-width: 1785px) {
+    .container-aside {
+        font-size: 0.9em;
+    }
+
+    .aside-musica {
+        display: none;
+    }
+
+    #regueton, #intenso {
+        margin-top: 0;
+    }
+
+    .playlist-container {
+        width: 100% !important;
+    }
+
+    .playlist {
+        width: 95%;
+        margin: 0 auto !important;
+    }
+}
+
+@media screen and (max-width: 1620px) {
+    .container-aside {
+        font-size: 0.82em;
+    }
+}
+
+@media screen and (max-width: 1492px) {
+    .container-aside {
+        display: none;
+    }
+
+    .main {
+        width: 100%;
     }
 }

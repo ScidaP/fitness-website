@@ -19,6 +19,9 @@
             
               <dt class="col-sm-3 text-truncate">Te ayudamos</dt>
               <dd class="col-sm-9">En esta página web encontrarás sobre ejercicios, información y disciplina alimentaria para medrar tu calidad de vida.</dd>
+              
+              <dt class="col-sm-3">        <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=45feb3df2e8634d6e8862e5730fdfff85c1951dd'></script>
+        <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/762197/t/7"></script></dt>
             </dl>
           </div>
           <div class="container-needhelp">

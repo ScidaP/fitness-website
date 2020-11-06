@@ -31,6 +31,4 @@
             </li>
           </ul>
         </div>
-        <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=45feb3df2e8634d6e8862e5730fdfff85c1951dd'></script>
-        <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/762197/t/7"></script>
       </nav>

@@ -61,42 +61,42 @@
         <div class="linea-container">
           <div class="fila-container">
             <div class="playlist-container">
-              <h1 class="display-1 mx-auto titulo titulo-playlist" id="regueton" style="margin-top: -55%;">Reggaeton</h1>
-              <iframe src="https://open.spotify.com/embed/playlist/061xZeYgr9dCCYh2MWovDs" width="700" height="580" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+              <h1 class="display-1 mx-auto titulo titulo-playlist" id="regueton">Reggaeton</h1>
+              <iframe src="https://open.spotify.com/embed/playlist/061xZeYgr9dCCYh2MWovDs" frameborder="0" allowtransparency="true" allow="encrypted-media" class="playlist"></iframe>
             </div>
             <div class="playlist-container">
-              <h1 class="display-1 mx-auto titulo titulo-playlist" id="intenso" style="margin-top: -55%;">Intense</h1>
-              <iframe src="https://open.spotify.com/embed/playlist/5cAwvaSXeNSrSbmrOUSBzo" width="700" height="580" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+              <h1 class="display-1 mx-auto titulo titulo-playlist" id="intenso">Intense</h1>
+              <iframe src="https://open.spotify.com/embed/playlist/5cAwvaSXeNSrSbmrOUSBzo" frameborder="0" allowtransparency="true" allow="encrypted-media" class="playlist"></iframe>
             </div>
           </div>
           <div class="fila-container">
             <div class="playlist-container">
               <h1 class="display-1 mx-auto titulo titulo-playlist" id="ingles">In English</h1>
-              <iframe src="https://open.spotify.com/embed/playlist/0evO3baKNG9RTzMwtHmHp0" width="700" height="580" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+              <iframe src="https://open.spotify.com/embed/playlist/0evO3baKNG9RTzMwtHmHp0" frameborder="0" allowtransparency="true" allow="encrypted-media" class="playlist"></iframe>
             </div>
             <div class="playlist-container">
               <h1 class="display-1 mx-auto titulo titulo-playlist" id="chill">Chill</h1>
-              <iframe src="https://open.spotify.com/embed/playlist/7ozIozDp260fjNOZy1yzRG" width="700" height="580" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+              <iframe src="https://open.spotify.com/embed/playlist/7ozIozDp260fjNOZy1yzRG" frameborder="0" allowtransparency="true" allow="encrypted-media" class="playlist"></iframe>
             </div>
           </div>
           <div class="fila-container">
             <div class="playlist-container">
               <h1 class="display-1 mx-auto titulo titulo-playlist" id="gymmix">Gym Mix</h1>
-              <iframe src="https://open.spotify.com/embed/playlist/2BZlf53rIEhHxcyN2ztmTV" width="700" height="580" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+              <iframe src="https://open.spotify.com/embed/playlist/2BZlf53rIEhHxcyN2ztmTV" frameborder="0" allowtransparency="true" allow="encrypted-media" class="playlist"></iframe>
             </div>
             <div class="playlist-container">
               <h1 class="display-1 mx-auto titulo titulo-playlist" id="upbeat">Upbeat</h1>
-            <iframe src="https://open.spotify.com/embed/playlist/5QrJdugsjYjMDH7HGxTRWl" width="700" height="580" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe src="https://open.spotify.com/embed/playlist/5QrJdugsjYjMDH7HGxTRWl" frameborder="0" allowtransparency="true" allow="encrypted-media" class="playlist"></iframe>
             </div>
           </div>
           <div class="fila-container">
             <div class="playlist-container">
               <h1 class="display-1 mx-auto titulo titulo-playlist" id="motivation">Motivation</h1>
-              <iframe src="https://open.spotify.com/embed/playlist/7mZZkjpyoY83wHbssEtzNF" width="700" height="580" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+              <iframe src="https://open.spotify.com/embed/playlist/7mZZkjpyoY83wHbssEtzNF" frameborder="0" allowtransparency="true" allow="encrypted-media" class="playlist"></iframe>
             </div>
             <div class="playlist-container">
               <h1 class="display-1 mx-auto titulo titulo-playlist" id="meditation">Meditation</h1>
-              <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DX9uKNf5jGX6m" width="700" height="580" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+              <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DX9uKNf5jGX6m" frameborder="0" allowtransparency="true" allow="encrypted-media" class="playlist"></iframe>
             </div>
           </div>
         </div>
