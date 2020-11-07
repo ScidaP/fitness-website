@@ -1,9 +1,12 @@
 <?php 
-  include("../php/Mailer/src/PHPMailer.php");
-  include("../php/Mailer/src/SMTP.php");
-  include("../php/Mailer/src/Exception.php");
+  include("../sent/Mailer/src/PHPMailer.php");
+  include("../sent/Mailer/src/SMTP.php");
+  include("../sent/Mailer/src/Exception.php");
   
 $result = "";
+$colores = ["(239, 243, 17, 0.1)", "(86, 243, 176, 0.1)", "(14, 232, 209, 0.1)", "(8, 88, 218, 0.1)", "(130, 16, 231, 0.1)", "(231, 16, 208, 0.1)", "(89, 0, 218, 0.1)", "(243, 118, 0, 0.1)"];
+$rand = mt_rand(0, 8);
+$colorRandom = $colores[$rand];
 
   $mail = new PHPMailer\PHPMailer\PHPMailer();
     if (isset($_POST['submit'])) {
@@ -35,12 +38,12 @@ $result = "";
   
       $mail->isHTML(true);
       $mail->Subject = "Asunto: $subject";
-      $mail->Body = "<div style=\"border: 0.2em solid black; border-radius: 6px; width: 50%; margin: 0 auto; padding: 0.5em 1em;\">
-      <h3>Este es un mail enviado por el usuario $name desde contáctanos.</h3>
-      <p>Nombre del usuario: $name</p>
-      <p>Email del usuario: $userEmail</p>
-      <p><strong>Mensaje:<br></strong></p>
-      <p>$bodyEmail</p>
+      $mail->Body = "<div style=\"border: 0.2em solid black; background-color: rgba$colorRandom; border-radius: 6px; width: 50%; margin: 0 auto; padding: 0.5em 1em;\">
+      <h3 style=\"color: black;\">Este es un mail enviado por el usuario $name desde contáctanos.</h3>
+      <p style=\"color: black;\">Nombre del usuario: $name</p>
+      <p style=\"color: black;\">Email del usuario: $userEmail</p>
+      <p style=\"color: black;\"><strong>Mensaje:<br></strong></p>
+      <p style=\"color: black;\">$bodyEmail</p>
   </div>";
   
       if (!$mail->send()) {
@@ -105,7 +108,7 @@ $result = "";
       <main class="main">
         <?= $result;?>
         <br>
-        <h1 class="display-1 mx-auto titulo" style="text-shadow: none; color: black;">Seguí navegado</h1>
+        <h1 class="display-1 mx-auto titulo contactanos-titulo" style="text-shadow: none; color: black;">Seguí navegado</h1>
         <div class="row container-seguinavegando mx-auto">
           <div class="col-sm-6 card-enviado">
             <div class="card">
@@ -181,8 +184,4 @@ $result = "";
       </main>
       <?php require 'footer.php'?>
 </body>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-<script src="../src/index.js"></script>
-</es>
+<?php include '../sent/scripts.php' ?>
