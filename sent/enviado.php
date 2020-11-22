@@ -21,7 +21,7 @@ $colorRandom = $colores[$rand];
       $port = "587";
       $SMTPAuth = "login";
       $SMTPSecure = "tls";
-      $password = 'f$DjhHki38$12n*mKcv$$123p*LmB)';
+      $password = '***';
       $emailTo = "webbefitness@gmail.com";
   
       $mail->isSMTP();
